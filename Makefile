@@ -11,8 +11,15 @@ endif
 .PHONY: all
 all: init build
 
+.PHONY: init 
 init:
 	$(PIP) install -r requirements.txt
 
+.PHONY: build
 build:
 	$(PYTHON) build.py
+
+.PHONY: clean
+clean:
+	@rm -f dist/*
+	@rm -f translated/*
