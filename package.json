@@ -1,0 +1,12 @@
+{
+  "name": "apple-bundle-ids",
+  "displayName": "Apple Bundle IDs",
+  "version": "1.0.0",
+  "description": "Bundle ids of Apple preinstalled native iPhone and iPad apps.",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/petarov/apple-bundle-ids.git"
+  },
+  "author": "Petar Petrov",
+  "license": "MIT"
+}
