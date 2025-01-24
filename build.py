@@ -92,10 +92,7 @@ def dist_readme(apps, template_path, package_path, output_path):
 
     app_contents = ''
     for app in apps:
-        logo_src = app[2].replace('=w240', '=w80') if len(app) > 3 else ''
-        line = '| ![App Logo]({0}) | {1} |  {2} | {3}'.format(logo_src, 
-            APP_LINK_PLACEHOLDER.format(app[1], app[0], LANG, LOCATION), app[0], 
-            ', '.join(app[3]))
+        line = '| ![App Icon]({0}) | {1} |  {2}'.format(app[2], app[0], app[1]) 
         line += "\n"
         app_contents += line
 
@@ -127,10 +124,9 @@ if __name__ == "__main__":
             prefix = locale + '_'
             dist_json(apps, os.path.join(cur_path, 'dist', prefix + DIST_JSON))
             dist_csv(apps, os.path.join(cur_path, 'dist', prefix + DIST_CSV))
-
-        # dist_readme(apps, os.path.join(cur_path, SRC_MARKDOWN_FILE), 
-        #     os.path.join(cur_path, 'package.json'),
-        #     os.path.join(cur_path, DIST_README))
+            dist_readme(apps, os.path.join(cur_path, SRC_MARKDOWN_FILE), 
+                os.path.join(cur_path, 'package.json'),
+                os.path.join(cur_path, 'translated', prefix + DIST_README))
 
         print ('Done.')
     except Exception as e:
