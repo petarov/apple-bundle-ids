@@ -1,0 +1,8 @@
+#
+# https://help.github.com/articles/dealing-with-line-endings/
+#
+# Linux start script should use lf
+Makefile        text eol=lf
+
+# Binary files should be left untouched
+*.png           binary
