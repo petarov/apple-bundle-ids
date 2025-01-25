@@ -184,7 +184,8 @@ if __name__ == "__main__":
             if i < len(LOCALES) - 1:
                 l10n_links += ' | '
         tpl = tpl.replace(SRC_L10N_LINKS_PLACEHOLDER, l10n_links)
-        dist_readme(apps, tpl, os.path.join(cur_path, DIST_README))
+        
+        dist_readme(locale_to_apps[DEFAULT_LOCALE], tpl, os.path.join(cur_path, DIST_README))
 
         ## Create last-update hash-lock
         create_lock(publish_date, lock_path)
