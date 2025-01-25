@@ -10,21 +10,20 @@ import os
 import sys
 import traceback
 import json
-from operator import itemgetter
 import requests
 from bs4 import BeautifulSoup
-import multiprocessing
-from multiprocessing.pool import ThreadPool
 
 LOCALES = ["en-us", "de-de"]
+LOCALE_NAMES = ["English", "Deutsch"]
 DEFAULT_LOCALE = "en-us"
 
-SRC_MARKDOWN_FILE = "tpl.README.md"
+SRC_README = "tpl.README.md"
 SRC_APPS_PLACEHOLDER = '%%APPS%%'
 SRC_APPSCOUNT_PLACEHOLDER = '%%APPS_COUNT%%'
 SRC_TIMESTAMP_PLACEHOLDER = '%%BUILD_TIMESTAMP%%'
 SRC_VERSION_PLACEHOLDER = '%%VERSION%%'
 SRC_LOGO_PLACEHOLDER = '%%LOGO_PATH%%'
+SRC_L10N_LINKS_PLACEHOLDER = '%%L10N_LINKS%%'
 
 L10N_FOLDER = 'localized'
 DIST_FOLDER = 'dist'
@@ -38,7 +37,7 @@ def download_apps(locales):
 
     for locale in locales:
         url = 'https://support.apple.com/{}/guide/deployment/depece748c41/web'.format(locale)
-        print ('|--Downloading apps locale: {} ({})'.format(locale, url))
+        print ('|--locale: {} ({})'.format(locale, url))
         
         html_contents = requests.get(url, allow_redirects=True)
         soup = BeautifulSoup(html_contents.text, 'html.parser')
@@ -67,7 +66,7 @@ def download_apps(locales):
     return locale_to_apps
 
 def dist_json(apps, output_path):
-    print ('Saving json: ', output_path)
+    print ('|--Saving json: ', output_path)
     json_data = []
     for app in apps:
         obj = {
@@ -81,7 +80,7 @@ def dist_json(apps, output_path):
         json.dump(json_data, outfile, indent=2, ensure_ascii=False)
 
 def dist_csv(apps, output_path):
-    print ('Saving csv: ', output_path)
+    print ('|--Saving csv: ', output_path)
     with open(output_path, 'w') as outfile:
         outfile.write("Name,BundleID,Icon\n")
         for app in apps:
@@ -92,7 +91,7 @@ def dist_csv(apps, output_path):
             ))
 
 def dist_readme(apps, template, output_path):
-    print ('Saving Markdown: ', output_path)
+    print ('|--Saving markdown: ', output_path)
 
     app_contents = ''
     for app in apps:
@@ -116,7 +115,7 @@ if __name__ == "__main__":
             package_json = json.load(json_file)
 
         # preload README template
-        with open(os.path.join(cur_path, SRC_MARKDOWN_FILE), 'r') as template:
+        with open(os.path.join(cur_path, SRC_README), 'r') as template:
             readme_template = template.read()
             readme_template = readme_template.replace(SRC_VERSION_PLACEHOLDER, 
                 package_json['version'])
@@ -124,19 +123,31 @@ if __name__ == "__main__":
             readme_template = readme_template.replace(SRC_TIMESTAMP_PLACEHOLDER,
                 today.strftime('%b %d, %Y at %H:%M'))
 
+        # download apps from Apple
         locale_to_apps = download_apps(LOCALES)
 
+        # generate dist folder contents and localizations
         for locale, apps in locale_to_apps.items():
-            print ('|--Saving apps for locale: ', locale)
+            print ('Generating locale: ', locale)
 
             prefix = locale + '_'
             dist_json(apps, os.path.join(cur_path, DIST_FOLDER, prefix + DIST_JSON))
             dist_csv(apps, os.path.join(cur_path, DIST_FOLDER, prefix + DIST_CSV))
             
             tpl = readme_template.replace(SRC_LOGO_PLACEHOLDER, '../')
+            tpl = tpl.replace(SRC_L10N_LINKS_PLACEHOLDER, '')
             dist_readme(apps, tpl, os.path.join(cur_path, L10N_FOLDER, prefix + DIST_README))
-            
-        tpl = readme_template.replace(SRC_LOGO_PLACEHOLDER, '' )   
+
+        # create default README.md
+        print ('Generating defaults ...')
+        tpl = readme_template.replace(SRC_LOGO_PLACEHOLDER, '')
+        l10n_links = ''
+        for i, locale in enumerate(LOCALES):
+            l10n_links += '[{}]({})'.format(LOCALE_NAMES[i], 
+                os.path.join(L10N_FOLDER, locale + '_' + DIST_README))
+            if i < len(LOCALES) - 1:
+                l10n_links += ' | '
+        tpl = tpl.replace(SRC_L10N_LINKS_PLACEHOLDER, l10n_links)
         dist_readme(apps, tpl, os.path.join(cur_path, DIST_README))
 
         print ('Done.')

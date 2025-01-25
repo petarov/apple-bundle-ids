@@ -13,7 +13,9 @@ Apple's Bundle IDs for native iPhone and iPad apps.
 
 The table below shows the name and bundle ID for each native iPhone and iPad app. Bundle IDs are case sensitive.
 
-  *  **%%APPS_COUNT%%** apps - v%%VERSION%% built on %%BUILD_TIMESTAMP%%
+**%%APPS_COUNT%%** apps - v%%VERSION%% built on %%BUILD_TIMESTAMP%%
+
+%%L10N_LINKS%%
 
 | Icon | App Name | Bundle ID |
 | --- | --- | --- |

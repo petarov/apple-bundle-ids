@@ -1,4 +1,4 @@
-PIP 	= pip3
+PIP = pip3
 PYTHON = python3
 
 PYTHON3_OK := $(shell python3 --version 2>&1)
