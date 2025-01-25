@@ -22,4 +22,4 @@ build:
 .PHONY: clean
 clean:
 	@rm -f dist/*
-	@rm -f translated/*
+	@rm -f localized/*
