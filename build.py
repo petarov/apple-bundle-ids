@@ -12,6 +12,7 @@ import traceback
 import json
 import requests
 from bs4 import BeautifulSoup
+import hashlib
 
 LOCALES = ["en-us", "de-de"]
 LOCALE_NAMES = ["English", "Deutsch"]
@@ -31,9 +32,10 @@ DIST_README = 'README.md'
 DIST_JSON = 'apple-bundle-ids.json'
 DIST_CSV = 'apple-bundle-ids.csv'
 
-def download_apps(locales):
+def download_apps(locales, force, cur_lock):
     print ('Downloading apps ...')
     locale_to_apps = {}
+    publish_date = None
 
     for locale in locales:
         url = 'https://support.apple.com/{}/guide/deployment/depece748c41/web'.format(locale)
@@ -48,7 +50,7 @@ def download_apps(locales):
 
         for row in rows:
             cols = row.find_all('td')
-            if len(cols) < 2: ## skip header row
+            if len(cols) < 2: ## Skip header row
                 continue
             td1 = cols[0]
             img_tag = td1.find('img')
@@ -61,9 +63,27 @@ def download_apps(locales):
 
             apps.append([app_name, bundle_id, img_src])
 
+        if locale == "en-us": ## Note! this always assumes english
+            rows = soup.find_all('footer')
+            for row in rows:
+                publish_date = row.text.strip()
+                if publish_date.startswith('Published'):
+                    publish_date = publish_date.split(":", 1)[1].strip()
+
+                    ## It's bad practice to just sys.exit here, but it's a simple
+                    ## script and it makes sense to stop downloading data ASAP
+                    if encode_lock(publish_date) == cur_lock and not force:
+                        print ('No changes found: update skipped')
+                        sys.exit(0)
+
+                    break
+
         locale_to_apps[locale] = apps
 
-    return locale_to_apps
+    if not publish_date:
+        raise Exception('No publish date <footer> found')        
+
+    return locale_to_apps, publish_date
 
 def dist_json(apps, output_path):
     print ('|--Saving json: ', output_path)
@@ -85,9 +105,9 @@ def dist_csv(apps, output_path):
         outfile.write("Name,BundleID,Icon\n")
         for app in apps:
             outfile.write("{0},{1},\"{2}\"\n".format(
-                app[0], # icon
-                app[1], # name
-                app[2]  # bundle id
+                app[0], # Icon
+                app[1], # Name
+                app[2]  # Bundle ID
             ))
 
 def dist_readme(apps, template, output_path):
@@ -104,17 +124,37 @@ def dist_readme(apps, template, output_path):
         template = template.replace(SRC_APPSCOUNT_PLACEHOLDER, str(len(apps)))
         output.write(template)
 
+def encode_lock(token):
+    return hashlib.md5(token.encode()).hexdigest()
+
+def create_lock(token, output_path):
+    print ('Generating lock ...')
+    with open(output_path, 'w') as output:
+        output.write(encode_lock(token))
+
+def load_lock(lock_path):
+    if not os.path.exists(lock_path):
+        return None
+
+    with open(lock_path, 'r') as f:
+        return f.read()
+
 #############################################################################
 # Main
 if __name__ == "__main__":
     try:
-        cur_path = os.path.dirname(os.path.realpath(__file__))
+        force_download = False
+        if len(sys.argv) > 1:
+            force_download = sys.argv[1] == '--force'
 
-        # preload package.json
+        cur_path = os.path.dirname(os.path.realpath(__file__))
+        lock_path = os.path.join(cur_path, 'build.lock')
+
+        ## Peload package.json
         with open(os.path.join(cur_path, 'package.json')) as json_file:
             package_json = json.load(json_file)
 
-        # preload README template
+        ## Preload README template
         with open(os.path.join(cur_path, SRC_README), 'r') as template:
             readme_template = template.read()
             readme_template = readme_template.replace(SRC_VERSION_PLACEHOLDER, 
@@ -123,10 +163,12 @@ if __name__ == "__main__":
             readme_template = readme_template.replace(SRC_TIMESTAMP_PLACEHOLDER,
                 today.strftime('%b %d, %Y at %H:%M'))
 
-        # download apps from Apple
-        locale_to_apps = download_apps(LOCALES)
+        ## Download apps from Apple
+        locale_to_apps, publish_date = download_apps(locales=LOCALES, 
+                                                     force=force_download,
+                                                     cur_lock=load_lock(lock_path))
 
-        # generate dist folder contents and localizations
+        ## Generate dist folder contents and localizations
         for locale, apps in locale_to_apps.items():
             print ('Generating locale: ', locale)
 
@@ -138,7 +180,7 @@ if __name__ == "__main__":
             tpl = tpl.replace(SRC_L10N_LINKS_PLACEHOLDER, '')
             dist_readme(apps, tpl, os.path.join(cur_path, L10N_FOLDER, prefix + DIST_README))
 
-        # create default README.md
+        ## Create default README.md
         print ('Generating defaults ...')
         tpl = readme_template.replace(SRC_LOGO_PLACEHOLDER, '')
         l10n_links = ''
@@ -150,7 +192,10 @@ if __name__ == "__main__":
         tpl = tpl.replace(SRC_L10N_LINKS_PLACEHOLDER, l10n_links)
         dist_readme(apps, tpl, os.path.join(cur_path, DIST_README))
 
+        ## Create last-update hash-lock
+        create_lock(publish_date, lock_path)
+
         print ('Done.')
     except Exception as e:
-        traceback.print_exc(file=sys.stdout)
+        traceback.print_exc(file=sys.stderr)
         print ("[ERROR] {0}".format(e))

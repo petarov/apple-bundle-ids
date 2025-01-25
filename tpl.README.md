@@ -43,6 +43,9 @@ Run the following to install dependencies, build all `dist/` files and generate 
 
     ./make
 
+After first generating the files, the script will not regenerate anything if no updates are found on Apple's
+website. To force use the `--force` command line parameter.
+
 # License
 
 [MIT License](LICENSE)
