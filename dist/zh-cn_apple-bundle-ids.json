@@ -1,0 +1,272 @@
+[
+  {
+    "name": "备忘录",
+    "bundle_id": "com.apple.mobilenotes",
+    "img_src": "https://help.apple.com/assets/6723B9B8B699CCA0A30A4425/6723B9C21B0110B75B0CB561/zh_CN/c0b2e5615a23beca598e9a389f2a8299.png"
+  },
+  {
+    "name": "播客",
+    "bundle_id": "com.apple.podcasts",
+    "img_src": "https://help.apple.com/assets/6723B9B8B699CCA0A30A4425/6723B9C21B0110B75B0CB561/zh_CN/aa0d7270566902790647a2d674334fbb.png"
+  },
+  {
+    "name": "测距仪",
+    "bundle_id": "com.apple.measure",
+    "img_src": "https://help.apple.com/assets/6723B9B8B699CCA0A30A4425/6723B9C21B0110B75B0CB561/zh_CN/63fa68e20397e9b04963deaaceed64fe.png"
+  },
+  {
+    "name": "查找",
+    "bundle_id": "com.apple.findmy",
+    "img_src": "https://help.apple.com/assets/6723B9B8B699CCA0A30A4425/6723B9C21B0110B75B0CB561/zh_CN/517f23fce6cb0ce5aa8c36bfa5cf5ce3.png"
+  },
+  {
+    "name": "地图",
+    "bundle_id": "com.apple.Maps",
+    "img_src": "https://help.apple.com/assets/6723B9B8B699CCA0A30A4425/6723B9C21B0110B75B0CB561/zh_CN/21e8c59cd2f31008048b15875a0abc56.png"
+  },
+  {
+    "name": "电话",
+    "bundle_id": "com.apple.mobilephone",
+    "img_src": "https://help.apple.com/assets/6723B9B8B699CCA0A30A4425/6723B9C21B0110B75B0CB561/zh_CN/4b79edee58737b87ad81195e6f3dd4da.png"
+  },
+  {
+    "name": "翻译",
+    "bundle_id": "com.apple.Translate",
+    "img_src": "https://help.apple.com/assets/6723B9B8B699CCA0A30A4425/6723B9C21B0110B75B0CB561/zh_CN/4b5d59237c84dd7436631525e8a6a3e4.png"
+  },
+  {
+    "name": "放大器",
+    "bundle_id": "com.apple.Magnifier",
+    "img_src": "https://help.apple.com/assets/6723B9B8B699CCA0A30A4425/6723B9C21B0110B75B0CB561/zh_CN/3f46f04e5802f10fc0b0e8ec05a7a84a.png"
+  },
+  {
+    "name": "股市",
+    "bundle_id": "com.apple.stocks",
+    "img_src": "https://help.apple.com/assets/6723B9B8B699CCA0A30A4425/6723B9C21B0110B75B0CB561/zh_CN/903deff89ddd59acfbd8c6caab55a1bb.png"
+  },
+  {
+    "name": "计算器",
+    "bundle_id": "com.apple.calculator",
+    "img_src": "https://help.apple.com/assets/6723B9B8B699CCA0A30A4425/6723B9C21B0110B75B0CB561/zh_CN/7c97cffba40e56cf9e2ccde17c2fbc3a.png"
+  },
+  {
+    "name": "家庭",
+    "bundle_id": "com.apple.Home",
+    "img_src": "https://help.apple.com/assets/6723B9B8B699CCA0A30A4425/6723B9C21B0110B75B0CB561/zh_CN/01ef17ed118fde0508f256c8c7de5468.png"
+  },
+  {
+    "name": "健康",
+    "bundle_id": "com.apple.Health",
+    "img_src": "https://help.apple.com/assets/6723B9B8B699CCA0A30A4425/6723B9C21B0110B75B0CB561/zh_CN/b0b0ac1b1c7d6b411c5e8c61ef41aa87.png"
+  },
+  {
+    "name": "健身",
+    "bundle_id": "com.apple.Fitness",
+    "img_src": "https://help.apple.com/assets/6723B9B8B699CCA0A30A4425/6723B9C21B0110B75B0CB561/zh_CN/a4f03fe8b7b21fa3160be027c203ed91.png"
+  },
+  {
+    "name": "可立拍",
+    "bundle_id": "com.apple.clips",
+    "img_src": "https://help.apple.com/assets/6723B9B8B699CCA0A30A4425/6723B9C21B0110B75B0CB561/zh_CN/db4a600f94b01081bc7465360d1224d4.png"
+  },
+  {
+    "name": "库乐队",
+    "bundle_id": "com.apple.mobilegarageband",
+    "img_src": "https://help.apple.com/assets/6723B9B8B699CCA0A30A4425/6723B9C21B0110B75B0CB561/zh_CN/0f841429c6c8ee40503d92a613ae39bf.png"
+  },
+  {
+    "name": "快捷指令",
+    "bundle_id": "com.apple.shortcuts",
+    "img_src": "https://help.apple.com/assets/6723B9B8B699CCA0A30A4425/6723B9C21B0110B75B0CB561/zh_CN/4df05abf5b188d68885bccb1bcf2850f.png"
+  },
+  {
+    "name": "密码",
+    "bundle_id": "com.apple.Passwords",
+    "img_src": "https://help.apple.com/assets/6723B9B8B699CCA0A30A4425/6723B9C21B0110B75B0CB561/zh_CN/a9577e5c83f469a17e56113042450600.png"
+  },
+  {
+    "name": "钱包",
+    "bundle_id": "com.apple.Passbook",
+    "img_src": "https://help.apple.com/assets/6723B9B8B699CCA0A30A4425/6723B9C21B0110B75B0CB561/zh_CN/226f3fa27b98e21cbfc3bcfb1567e5f5.png"
+  },
+  {
+    "name": "日历",
+    "bundle_id": "com.apple.mobilecal",
+    "img_src": "https://help.apple.com/assets/6723B9B8B699CCA0A30A4425/6723B9C21B0110B75B0CB561/zh_CN/07eb8e5dbe68e54ef7f1939fd8ff8e58.png"
+  },
+  {
+    "name": "扫码器",
+    "bundle_id": "com.apple.BarcodeScanner",
+    "img_src": "https://help.apple.com/assets/6723B9B8B699CCA0A30A4425/6723B9C21B0110B75B0CB561/zh_CN/6d763bf7333100d4169805acf48af972.png"
+  },
+  {
+    "name": "设置",
+    "bundle_id": "com.apple.Preferences",
+    "img_src": "https://help.apple.com/assets/6723B9B8B699CCA0A30A4425/6723B9C21B0110B75B0CB561/zh_CN/d30a5c899b4d74d638b75344df55241f.png"
+  },
+  {
+    "name": "时钟",
+    "bundle_id": "com.apple.mobiletimer",
+    "img_src": "https://help.apple.com/assets/6723B9B8B699CCA0A30A4425/6723B9C21B0110B75B0CB561/zh_CN/b14f3d8973d3ca1bfa9d5ea4027f63bb.png"
+  },
+  {
+    "name": "视频",
+    "bundle_id": "com.apple.tv",
+    "img_src": "https://help.apple.com/assets/6723B9B8B699CCA0A30A4425/6723B9C21B0110B75B0CB561/zh_CN/8e6906b1c11f413896b408e665fc0471.png"
+  },
+  {
+    "name": "手记",
+    "bundle_id": "com.apple.journal",
+    "img_src": "https://help.apple.com/assets/6723B9B8B699CCA0A30A4425/6723B9C21B0110B75B0CB561/zh_CN/6fbb5e5edde48d5f12f870d5b2a51441.png"
+  },
+  {
+    "name": "提示",
+    "bundle_id": "com.apple.tips",
+    "img_src": "https://help.apple.com/assets/6723B9B8B699CCA0A30A4425/6723B9C21B0110B75B0CB561/zh_CN/9cf29cf7a2549bbda39f06f3c2ea7001.png"
+  },
+  {
+    "name": "提醒事项",
+    "bundle_id": "com.apple.reminders",
+    "img_src": "https://help.apple.com/assets/6723B9B8B699CCA0A30A4425/6723B9C21B0110B75B0CB561/zh_CN/b00f84807218a0d62cb0929f521c2516.png"
+  },
+  {
+    "name": "天气",
+    "bundle_id": "com.apple.weather",
+    "img_src": "https://help.apple.com/assets/6723B9B8B699CCA0A30A4425/6723B9C21B0110B75B0CB561/zh_CN/6d6a684739e9f5f4e6fa917443006680.png"
+  },
+  {
+    "name": "通讯录",
+    "bundle_id": "com.apple.MobileAddressBook",
+    "img_src": "https://help.apple.com/assets/6723B9B8B699CCA0A30A4425/6723B9C21B0110B75B0CB561/zh_CN/ed7c13771c0469d2ac8c43e15290f96e.png"
+  },
+  {
+    "name": "图乐园",
+    "bundle_id": "com.apple.GenerativePlaygroundApp",
+    "img_src": "https://help.apple.com/assets/6723B9B8B699CCA0A30A4425/6723B9C21B0110B75B0CB561/zh_CN/a4e9cfb76cffda764ffd42814f24ad84.png"
+  },
+  {
+    "name": "图书",
+    "bundle_id": "com.apple.iBooks",
+    "img_src": "https://help.apple.com/assets/6723B9B8B699CCA0A30A4425/6723B9C21B0110B75B0CB561/zh_CN/c88fa9ecbb6675a159f41495bb32828e.png"
+  },
+  {
+    "name": "文件",
+    "bundle_id": "com.apple.DocumentsApp",
+    "img_src": "https://help.apple.com/assets/6723B9B8B699CCA0A30A4425/6723B9C21B0110B75B0CB561/zh_CN/bbba03c60b17e15b9b3965610bb5113d.png"
+  },
+  {
+    "name": "无边记",
+    "bundle_id": "com.apple.freeform",
+    "img_src": "https://help.apple.com/assets/6723B9B8B699CCA0A30A4425/6723B9C21B0110B75B0CB561/zh_CN/2d4becfdf775f986b72c5aeabf88785c.png"
+  },
+  {
+    "name": "相机",
+    "bundle_id": "com.apple.camera",
+    "img_src": "https://help.apple.com/assets/6723B9B8B699CCA0A30A4425/6723B9C21B0110B75B0CB561/zh_CN/852af75bbc61abf8ee80521e6e720a53.png"
+  },
+  {
+    "name": "新闻",
+    "bundle_id": "com.apple.News",
+    "img_src": "https://help.apple.com/assets/6723B9B8B699CCA0A30A4425/6723B9C21B0110B75B0CB561/zh_CN/5902d4f959872384818a58ca6a1ae6d2.png"
+  },
+  {
+    "name": "信息",
+    "bundle_id": "com.apple.MobileSMS",
+    "img_src": "https://help.apple.com/assets/6723B9B8B699CCA0A30A4425/6723B9C21B0110B75B0CB561/zh_CN/badc9485650ffe05e65b87247c1104e7.png"
+  },
+  {
+    "name": "音乐",
+    "bundle_id": "com.apple.Music",
+    "img_src": "https://help.apple.com/assets/6723B9B8B699CCA0A30A4425/6723B9C21B0110B75B0CB561/zh_CN/a694b0a32b8247797c9e95952f4e5df1.png"
+  },
+  {
+    "name": "邮件",
+    "bundle_id": "com.apple.mobilemail",
+    "img_src": "https://help.apple.com/assets/6723B9B8B699CCA0A30A4425/6723B9C21B0110B75B0CB561/zh_CN/aa62abf5cc9d0835a2c78f52d57361d1.png"
+  },
+  {
+    "name": "语音备忘录",
+    "bundle_id": "com.apple.VoiceMemos",
+    "img_src": "https://help.apple.com/assets/6723B9B8B699CCA0A30A4425/6723B9C21B0110B75B0CB561/zh_CN/34348da8f13ef5e7bcccd7f7603681b2.png"
+  },
+  {
+    "name": "照片",
+    "bundle_id": "com.apple.mobileslideshow",
+    "img_src": "https://help.apple.com/assets/6723B9B8B699CCA0A30A4425/6723B9C21B0110B75B0CB561/zh_CN/98c461003313f2eba5a8e22b1c0645b3.png"
+  },
+  {
+    "name": "指南针",
+    "bundle_id": "com.apple.compass",
+    "img_src": "https://help.apple.com/assets/6723B9B8B699CCA0A30A4425/6723B9C21B0110B75B0CB561/zh_CN/9b0fd77dd7bb2fd155a3105ae207c5cf.png"
+  },
+  {
+    "name": "App Store",
+    "bundle_id": "com.apple.AppStore",
+    "img_src": "https://help.apple.com/assets/6723B9B8B699CCA0A30A4425/6723B9C21B0110B75B0CB561/zh_CN/96426e514e8d7a61582484074bcc45b8.png"
+  },
+  {
+    "name": "Apple Store 商店",
+    "bundle_id": "com.apple.store.Jolly",
+    "img_src": "https://help.apple.com/assets/6723B9B8B699CCA0A30A4425/6723B9C21B0110B75B0CB561/zh_CN/b2881b6dc934a86e35cabd5b1cea04d7.png"
+  },
+  {
+    "name": "Developer",
+    "bundle_id": "developer.apple.wwdc-Release",
+    "img_src": "https://help.apple.com/assets/6723B9B8B699CCA0A30A4425/6723B9C21B0110B75B0CB561/zh_CN/5053f7e86ca80433daf81d6db7e3be94.png"
+  },
+  {
+    "name": "FaceTime 通话",
+    "bundle_id": "com.apple.facetime",
+    "img_src": "https://help.apple.com/assets/6723B9B8B699CCA0A30A4425/6723B9C21B0110B75B0CB561/zh_CN/41f9ab48e1f232a876c8151d5ac0f624.png"
+  },
+  {
+    "name": "iCloud 云盘",
+    "bundle_id": "com.apple.iCloudDriveApp",
+    "img_src": "https://help.apple.com/assets/6723B9B8B699CCA0A30A4425/6723B9C21B0110B75B0CB561/zh_CN/c396f6a8b5dbddb3c16305d09dc50bf0.png"
+  },
+  {
+    "name": "iMovie 剪辑",
+    "bundle_id": "com.apple.iMovie",
+    "img_src": "https://help.apple.com/assets/6723B9B8B699CCA0A30A4425/6723B9C21B0110B75B0CB561/zh_CN/047cd8cc1ee8e11e23526c4e13d36b83.png"
+  },
+  {
+    "name": "iTunes Store",
+    "bundle_id": "com.apple.MobileStore",
+    "img_src": "https://help.apple.com/assets/6723B9B8B699CCA0A30A4425/6723B9C21B0110B75B0CB561/zh_CN/fc84d3f76f5e4c994a31a19bb20f8024.png"
+  },
+  {
+    "name": "Keynote 讲演",
+    "bundle_id": "com.apple.Keynote",
+    "img_src": "https://help.apple.com/assets/6723B9B8B699CCA0A30A4425/6723B9C21B0110B75B0CB561/zh_CN/99dec81ae642515ae23dda1df9ccf473.png"
+  },
+  {
+    "name": "Numbers 表格",
+    "bundle_id": "com.apple.Numbers",
+    "img_src": "https://help.apple.com/assets/6723B9B8B699CCA0A30A4425/6723B9C21B0110B75B0CB561/zh_CN/1ad975d8d6d73976f28bd2989ff623e6.png"
+  },
+  {
+    "name": "Pages 文稿",
+    "bundle_id": "com.apple.Pages",
+    "img_src": "https://help.apple.com/assets/6723B9B8B699CCA0A30A4425/6723B9C21B0110B75B0CB561/zh_CN/df93cc9c0b4eca27c6bda3ad27050405.png"
+  },
+  {
+    "name": "Photo Booth",
+    "bundle_id": "com.apple.Photo-Booth",
+    "img_src": "https://help.apple.com/assets/6723B9B8B699CCA0A30A4425/6723B9C21B0110B75B0CB561/zh_CN/1f342434cb220654d752fc7e1a89c047.png"
+  },
+  {
+    "name": "Safari 浏览器",
+    "bundle_id": "com.apple.mobilesafari",
+    "img_src": "https://help.apple.com/assets/6723B9B8B699CCA0A30A4425/6723B9C21B0110B75B0CB561/zh_CN/164477f6e7625112669ec4331fe37ed6.png"
+  },
+  {
+    "name": "Swift Playgrounds",
+    "bundle_id": "com.apple.Playgrounds",
+    "img_src": "https://help.apple.com/assets/6723B9B8B699CCA0A30A4425/6723B9C21B0110B75B0CB561/zh_CN/5fbf9f6dd414b51b287b39b6187e6a99.png"
+  },
+  {
+    "name": "Watch",
+    "bundle_id": "com.apple.Bridge",
+    "img_src": "https://help.apple.com/assets/6723B9B8B699CCA0A30A4425/6723B9C21B0110B75B0CB561/zh_CN/88bbdf6763f0a0824b3ff636dd757e17.png"
+  }
+]

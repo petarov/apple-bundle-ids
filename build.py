@@ -14,8 +14,8 @@ import requests
 from bs4 import BeautifulSoup
 import hashlib
 
-LOCALES = ["en-us", "de-de"]
-LOCALE_NAMES = ["English", "Deutsch"]
+LOCALES = ["en-us", "de-de", "es-es", "fr-fr", "ja-jp", "zh-cn"]
+LOCALE_NAMES = ["English", "Deutsch",  "Español", "Français", "日本語", "中文"]
 DEFAULT_LOCALE = "en-us"
 
 SRC_README = "tpl.README.md"
