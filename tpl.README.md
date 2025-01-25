@@ -9,9 +9,9 @@
 
 # Apple Bundle IDs
 
-Apple's Bundle IDs for native iPhone and iPad apps.
+Apple's Bundle IDs for native iPhone and iPad apps. The table below shows the name and bundle ID for each native iPhone and iPad app. Bundle IDs are case sensitive.
 
-The table below shows the name and bundle ID for each native iPhone and iPad app. Bundle IDs are case sensitive.
+This list is updated automatically twice a month, but only if changes on Apple's Bundle IDs website are detected.
 
 **%%APPS_COUNT%%** apps - v%%VERSION%% built on %%BUILD_TIMESTAMP%%
 
@@ -31,7 +31,7 @@ Or just use the compiled `csv` and `json` files from `dist/`
 
 # Contributing
 
-The list gets auto-rebuilt 1-2 times a month, so there's no need to add apps manually to it.
+The list gets auto-rebuilt 2 times a month, so there's no need to add apps manually to it.
 
 If you find other issues, just open a [pull request](https://github.com/petarov/apple-bundle-ids/pulls).
 
@@ -44,7 +44,7 @@ Run the following to install dependencies, build all `dist/` files and generate 
     ./make
 
 After first generating the files, the script will not regenerate anything if no updates are found on Apple's
-website. To force use the `--force` command line parameter.
+website. To force delete the `build.lock` file generated on first run.
 
 # License
 

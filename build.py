@@ -32,7 +32,7 @@ DIST_README = 'README.md'
 DIST_JSON = 'apple-bundle-ids.json'
 DIST_CSV = 'apple-bundle-ids.csv'
 
-def download_apps(locales, force, cur_lock):
+def download_apps(locales, cur_lock):
     print ('Downloading apps ...')
     locale_to_apps = {}
     publish_date = None
@@ -72,7 +72,7 @@ def download_apps(locales, force, cur_lock):
 
                     ## It's bad practice to just sys.exit here, but it's a simple
                     ## script and it makes sense to stop downloading data ASAP
-                    if encode_lock(publish_date) == cur_lock and not force:
+                    if encode_lock(publish_date) == cur_lock:
                         print ('No changes found: update skipped')
                         sys.exit(0)
 
@@ -143,10 +143,6 @@ def load_lock(lock_path):
 # Main
 if __name__ == "__main__":
     try:
-        force_download = False
-        if len(sys.argv) > 1:
-            force_download = sys.argv[1] == '--force'
-
         cur_path = os.path.dirname(os.path.realpath(__file__))
         lock_path = os.path.join(cur_path, 'build.lock')
 
@@ -164,9 +160,7 @@ if __name__ == "__main__":
                 today.strftime('%b %d, %Y at %H:%M'))
 
         ## Download apps from Apple
-        locale_to_apps, publish_date = download_apps(locales=LOCALES, 
-                                                     force=force_download,
-                                                     cur_lock=load_lock(lock_path))
+        locale_to_apps, publish_date = download_apps(locales=LOCALES, cur_lock=load_lock(lock_path))
 
         ## Generate dist folder contents and localizations
         for locale, apps in locale_to_apps.items():
