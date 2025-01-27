@@ -39,7 +39,7 @@ def download_apps(locales, cur_lock, exit_on_no_changes):
 
     for locale in locales:
         url = 'https://support.apple.com/{}/guide/deployment/depece748c41/web'.format(locale)
-        print ('|--locale: {} ({})'.format(locale, url))
+        print ('|--Locale: {} ({})'.format(locale, url))
         
         html_contents = requests.get(url, allow_redirects=True)
         soup = BeautifulSoup(html_contents.text, 'html.parser')
@@ -217,3 +217,4 @@ if __name__ == "__main__":
     except Exception as e:
         traceback.print_exc(file=sys.stderr)
         print ("[ERROR] {0}".format(e))
+        sys.exit(1)
