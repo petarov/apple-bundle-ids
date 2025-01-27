@@ -11,9 +11,9 @@
 
 Apple's Bundle IDs for native iPhone and iPad apps. The table below shows the name and bundle ID for each native iPhone and iPad app. Bundle IDs are case sensitive.
 
-This list is updated automatically twice a month, but only if changes on Apple's Bundle IDs website are detected.
+This list gets rebuild automatically once a month, but only if changes on Apple's Bundle IDs website are detected.
 
-**54** apps - v1.0.0 built on Jan 27, 2025 at 22:29
+**54** apps - v1.0.0 built on Jan 27, 2025 at 23:35
 
 [English](localized/en-us_README.md) | [Deutsch](localized/de-de_README.md) | [Español](localized/es-es_README.md) | [Français](localized/fr-fr_README.md) | [日本語](localized/ja-jp_README.md) | [中文](localized/zh-cn_README.md)
 
@@ -85,9 +85,7 @@ Or just use the compiled `csv` and `json` files from `dist/`
 
 # Contributing
 
-The list gets auto-rebuilt 2 times a month, so there's no need to add apps manually to it.
-
-If you find other issues, just open a [pull request](https://github.com/petarov/apple-bundle-ids/pulls).
+Because the list gets auto-rebuilt  there's no need to add apps manually to it. If you find other issues, please open a [pull request](https://github.com/petarov/apple-bundle-ids/pulls).
 
 # Building
 

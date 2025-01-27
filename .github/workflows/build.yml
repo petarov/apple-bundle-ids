@@ -3,10 +3,10 @@ name: Build README and dist files
 on:
   push:
     branches: ["main"]
-    paths:
-      - .github/workflows/build.yml
+#    paths:
+#      - .github/workflows/build.yml
   schedule:
-    - cron: '0 4 1,14 */1 *' # 1st and 14th of every month at 4:00 UTC
+    - cron: '0 4 14 */1 *' # 14th of every month at 4:00 UTC
   workflow_dispatch:
 
 permissions:
