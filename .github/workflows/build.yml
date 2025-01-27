@@ -1,0 +1,47 @@
+name: Build README and dist files
+
+on:
+  push:
+    branches: ["main"]
+    paths:
+      - .github/workflows/build.yml
+  schedule:
+    - cron: '0 4 1,14 */1 *' # 1st and 14th of every month at 4:00 UTC
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  generate-files:
+    runs-on: ubuntu-latest
+    
+    steps:
+    - name: Checkout repository
+      uses: actions/checkout@v4
+      
+    - name: Set up Python
+      uses: actions/setup-python@v5
+      with:
+        python-version: '3.x'
+        
+    - name: Install dependencies
+      run: python -m pip install --upgrade pip
+        
+    - name: Generate files
+      run: |
+        make init
+        make build
+
+    - name: Configure Git
+      run: |
+        git config --global user.name 'github-actions[bot]'
+        git config --global user.email 'github-actions[bot]@users.noreply.github.com'
+
+    - name: Commit and push changes
+      run: |
+        git add build.lock package.json README.md dist/* localized/*
+        git diff --quiet && git diff --staged --quiet || git commit -m "Updated found: auto-generate files"
+        git push
+      env:
+        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
