@@ -1,8 +1,8 @@
 name: Build README and dist files
 
 on:
-  push:
-    branches: ["main"]
+#  push:
+#    branches: ["main"]
 #    paths:
 #      - .github/workflows/build.yml
   schedule:
@@ -31,7 +31,7 @@ jobs:
     - name: Generate files
       run: |
         make init
-        make build
+        make prod
 
     - name: Configure Git
       run: |
