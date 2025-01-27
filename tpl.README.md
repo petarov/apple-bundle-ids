@@ -43,8 +43,9 @@ Run the following to install dependencies, build all `dist/` files and generate 
 
     ./make
 
-After first generating the files, the script will not regenerate anything if no updates are found on Apple's
-website. To force delete the `build.lock` file generated on first run.
+To run the script in production mode, which means bump the `package.json` version on update and exit if no updates at Apple's website are found, run:
+
+    ./make prod
 
 # License
 

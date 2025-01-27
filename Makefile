@@ -19,6 +19,10 @@ init:
 build:
 	$(PYTHON) build.py
 
+.PHONY: prod
+prod:
+	$(PYTHON) build.py prod
+
 .PHONY: clean
 clean:
 	@rm -f dist/*

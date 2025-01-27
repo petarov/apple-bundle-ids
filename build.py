@@ -32,7 +32,7 @@ DIST_README = 'README.md'
 DIST_JSON = 'apple-bundle-ids.json'
 DIST_CSV = 'apple-bundle-ids.csv'
 
-def download_apps(locales, cur_lock):
+def download_apps(locales, cur_lock, exit_on_no_changes):
     print ('Downloading apps ...')
     locale_to_apps = {}
     publish_date = None
@@ -63,7 +63,7 @@ def download_apps(locales, cur_lock):
 
             apps.append([app_name, bundle_id, img_src])
 
-        if locale == "en-us": ## Note! this always assumes english
+        if exit_on_no_changes and locale == "en-us": ## Note! this always assumes english
             rows = soup.find_all('footer')
             for row in rows:
                 publish_date = row.text.strip()
@@ -80,7 +80,7 @@ def download_apps(locales, cur_lock):
 
         locale_to_apps[locale] = apps
 
-    if not publish_date:
+    if exit_on_no_changes and not publish_date:
         raise Exception('No publish date <footer> found')        
 
     return locale_to_apps, publish_date
@@ -139,15 +139,34 @@ def load_lock(lock_path):
     with open(lock_path, 'r') as f:
         return f.read()
 
+def bump_version(package_path):
+    with open(package_path, 'r+') as json_file:
+        package_json = json.load(json_file)
+        version = package_json['version']
+        version_parts = version.split('.')
+        version_parts[-1] = str(int(version_parts[-1]) + 1)
+        package_json['version'] = '.'.join(version_parts)
+        print ('Bump package.json version: ', package_json['version'])
+        json_file.seek(0)
+        json.dump(package_json, json_file, indent=2, ensure_ascii=False)
+        json_file.truncate()
+
+
 #############################################################################
 # Main
 if __name__ == "__main__":
     try:
+        ## Are we running in production mode, which means exit as soon as
+        ## no new updates are detected at Apple and bump the package version
+        ## if updates are found
+        prod = len(sys.argv) > 1 and sys.argv[1] == 'prod'
+
         cur_path = os.path.dirname(os.path.realpath(__file__))
+        package_path = os.path.join(cur_path, 'package.json')
         lock_path = os.path.join(cur_path, 'build.lock')
 
-        ## Peload package.json
-        with open(os.path.join(cur_path, 'package.json')) as json_file:
+        ## Preload package.json
+        with open(package_path, 'r') as json_file:
             package_json = json.load(json_file)
 
         ## Preload README template
@@ -160,7 +179,7 @@ if __name__ == "__main__":
                 today.strftime('%b %d, %Y at %H:%M'))
 
         ## Download apps from Apple
-        locale_to_apps, publish_date = download_apps(locales=LOCALES, cur_lock=load_lock(lock_path))
+        locale_to_apps, publish_date = download_apps(LOCALES, load_lock(lock_path), prod)
 
         ## Generate dist folder contents and localizations
         for locale, apps in locale_to_apps.items():
@@ -188,7 +207,11 @@ if __name__ == "__main__":
         dist_readme(locale_to_apps[DEFAULT_LOCALE], tpl, os.path.join(cur_path, DIST_README))
 
         ## Create last-update hash-lock
-        create_lock(publish_date, lock_path)
+        if publish_date:
+            create_lock(publish_date, lock_path)
+
+        if prod:
+            bump_version(package_path)
 
         print ('Done.')
     except Exception as e:
