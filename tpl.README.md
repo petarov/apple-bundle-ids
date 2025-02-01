@@ -13,7 +13,7 @@ Apple's Bundle IDs for native iPhone and iPad apps. The table below shows the na
 
 This list gets rebuild automatically once a month, but only if changes on Apple's Bundle IDs website are detected.
 
-**%%APPS_COUNT%%** apps - v%%VERSION%% built on %%BUILD_TIMESTAMP%%
+**%%APPS_COUNT%%** apps - v%%VERSION%% built on %%BUILD_TIMESTAMP%% | See also :point_right: [App Store Web Search](https://github.com/petarov/appstore-web-search)
 
 %%L10N_LINKS%%
 
