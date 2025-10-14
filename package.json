@@ -1,7 +1,7 @@
 {
   "name": "apple-bundle-ids",
   "displayName": "Apple Bundle IDs",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Bundle ids of Apple preinstalled native iPhone and iPad apps.",
   "repository": {
     "type": "git",
