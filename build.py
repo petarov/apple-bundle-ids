@@ -105,17 +105,18 @@ def dist_csv(apps, output_path):
         outfile.write("Name,BundleID,Icon\n")
         for app in apps:
             outfile.write("{0},{1},\"{2}\"\n".format(
-                app[0], # Icon
-                app[1], # Name
-                app[2]  # Bundle ID
+                app[0], # Name
+                app[1], # Bundle ID
+                app[2]  # Icon
             ))
 
-def dist_readme(apps, template, output_path):
+def dist_readme(apps, index, template, output_path):
     print ('|--Saving markdown: ', output_path)
-
     app_contents = ''
     for app in apps:
-        line = '| ![App Icon]({0}) | {1} |  {2}'.format(app[2], app[0], app[1]) 
+        new1 = '' if app[1] in index else ' ✨'
+        new2 = '' if app[1] in index else ' 🆕'
+        line = '| ![App Icon]({}) | {} {} |  {} {}'.format(app[2], new1, app[0], app[1], new2) 
         line += "\n"
         app_contents += line
 
@@ -138,6 +139,21 @@ def load_lock(lock_path):
 
     with open(lock_path, 'r') as f:
         return f.read()
+    
+
+def create_index(apps, output_path):
+    print ('Generating index ...')
+    with open(output_path, 'w') as output:
+        for app in apps:
+            output.write(f"{app[1]}\n")    
+
+def load_index(index_path):
+    idx = []
+    if os.path.exists(index_path):
+        with open(index_path, 'r') as f:
+            for line in f:
+                idx.append(line.strip())
+    return set(idx)
 
 def bump_version(package_path):
     with open(package_path, 'r+') as json_file:
@@ -164,6 +180,7 @@ if __name__ == "__main__":
         cur_path = os.path.dirname(os.path.realpath(__file__))
         package_path = os.path.join(cur_path, 'package.json')
         lock_path = os.path.join(cur_path, 'build.lock')
+        index_path = os.path.join(cur_path, 'build.index')
 
         ## Preload package.json
         with open(package_path, 'r') as json_file:
@@ -181,6 +198,9 @@ if __name__ == "__main__":
         ## Download apps from Apple
         locale_to_apps, publish_date = download_apps(LOCALES, load_lock(lock_path), prod)
 
+        ## Load existing index of last generated apps
+        index = load_index(index_path)
+
         ## Generate dist folder contents and localizations
         for locale, apps in locale_to_apps.items():
             print ('Generating locale: ', locale)
@@ -191,7 +211,8 @@ if __name__ == "__main__":
             
             tpl = readme_template.replace(SRC_LOGO_PLACEHOLDER, '../')
             tpl = tpl.replace(SRC_L10N_LINKS_PLACEHOLDER, '')
-            dist_readme(apps, tpl, os.path.join(cur_path, L10N_FOLDER, prefix + DIST_README))
+            dist_readme(apps, index, tpl, 
+                        os.path.join(cur_path, L10N_FOLDER, prefix + DIST_README))
 
         ## Create default README.md
         print ('Generating defaults ...')
@@ -204,11 +225,15 @@ if __name__ == "__main__":
                 l10n_links += ' | '
         tpl = tpl.replace(SRC_L10N_LINKS_PLACEHOLDER, l10n_links)
         
-        dist_readme(locale_to_apps[DEFAULT_LOCALE], tpl, os.path.join(cur_path, DIST_README))
+        dist_readme(locale_to_apps[DEFAULT_LOCALE], index, tpl, 
+                    os.path.join(cur_path, DIST_README))
 
         ## Create last-update hash-lock
         if publish_date:
             create_lock(publish_date, lock_path)
+
+        ## Create index file
+        create_index(locale_to_apps[DEFAULT_LOCALE], index_path)
 
         if prod:
             bump_version(package_path)
