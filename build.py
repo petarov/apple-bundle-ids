@@ -13,6 +13,7 @@ import json
 import requests
 from bs4 import BeautifulSoup
 import hashlib
+from urllib.parse import urlparse
 
 LOCALES = ["en-us", "de-de", "es-es", "fr-fr", "ja-jp", "zh-cn"]
 LOCALE_NAMES = ["English", "Deutsch",  "Español", "Français", "日本語", "中文"]
@@ -28,9 +29,71 @@ SRC_L10N_LINKS_PLACEHOLDER = '%%L10N_LINKS%%'
 
 L10N_FOLDER = 'localized'
 DIST_FOLDER = 'dist'
+DIST_IMAGES_FOLDER = 'images'
 DIST_README = 'README.md'
 DIST_JSON = 'apple-bundle-ids.json'
 DIST_CSV = 'apple-bundle-ids.csv'
+
+HTTP_TIMEOUT = 10  # seconds
+
+def get_image_filename(img_url, bundle_id):
+    parsed = urlparse(img_url)
+    ext = os.path.splitext(parsed.path)[1] or '.png'
+    # Use bundle_id as base filename to ensure uniqueness
+    safe_bundle_id = bundle_id.replace('.', '_').lower()
+    return f"{safe_bundle_id}{ext}"
+
+def download_image(img_url, output_path):
+    try:
+        response = requests.get(img_url, allow_redirects=True, timeout=HTTP_TIMEOUT)
+        response.raise_for_status()
+        with open(output_path, 'wb') as f:
+            f.write(response.content)
+        return True
+    except Exception as e:
+        print (f"    |--Warning: Failed to download image {img_url}: {e}")
+        return False
+
+def download_images(apps, images_folder):
+    print ('Downloading images ...')
+    
+    # Create images folder if it doesn't exist
+    os.makedirs(images_folder, exist_ok=True)
+    
+    downloaded = set()
+    image_map = {}  # Maps bundle_id to image filename
+    
+    for app in apps:
+        app_name, bundle_id, img_src = app
+        
+        # Skip if already downloaded
+        if bundle_id in downloaded:
+            continue
+            
+        if img_src == 'Not found':
+            print (f"  |--Skipping {app_name}: No image URL")
+            image_map[bundle_id] = None
+            continue
+        
+        # Generate filename and path
+        filename = get_image_filename(img_src, bundle_id)
+        filepath = os.path.join(images_folder, filename)
+        relative_path = os.path.join(DIST_IMAGES_FOLDER, filename)
+        
+        # Download if not already exists
+        if not os.path.exists(filepath):
+            print (f"  |--Downloading: {app_name}")
+            if download_image(img_src, filepath):
+                image_map[bundle_id] = relative_path
+            else:
+                image_map[bundle_id] = None
+        else:
+            print (f"  |--Cached: {app_name}")
+            image_map[bundle_id] = relative_path
+        
+        downloaded.add(bundle_id)
+    
+    return image_map
 
 def download_apps(locales, cur_lock, exit_on_no_changes):
     print ('Downloading apps ...')
@@ -85,29 +148,34 @@ def download_apps(locales, cur_lock, exit_on_no_changes):
 
     return locale_to_apps, publish_date
 
-def dist_json(apps, output_path):
+def dist_json(apps, image_map, output_path):
     print ('|--Saving json: ', output_path)
     json_data = []
     for app in apps:
+        bundle_id = app[1]
         obj = {
             'name': app[0],
-            'bundle_id': app[1],
+            'bundle_id': bundle_id,
             'img_src': app[2],
+            'img_file': image_map.get(bundle_id, None),
         }
         json_data.append(obj)
 
     with open(output_path, 'w') as outfile:
         json.dump(json_data, outfile, indent=2, ensure_ascii=False)
 
-def dist_csv(apps, output_path):
+def dist_csv(apps, image_map, output_path):
     print ('|--Saving csv: ', output_path)
     with open(output_path, 'w') as outfile:
-        outfile.write("Name,BundleID,Icon\n")
+        outfile.write("Name,BundleID,ImageSrc,ImageFile\n")
         for app in apps:
-            outfile.write("{0},{1},\"{2}\"\n".format(
-                app[0], # Name
-                app[1], # Bundle ID
-                app[2]  # Icon
+            bundle_id = app[1]
+            image_file = image_map.get(bundle_id, '')
+            outfile.write("{0},{1},\"{2}\",\"{3}\"\n".format(
+                app[0],             # Name
+                bundle_id,          # Bundle ID
+                app[2],             # Icon URL
+                image_file or ''    # Local image file path
             ))
 
 def dist_readme(apps, index, template, output_path):
@@ -181,6 +249,7 @@ if __name__ == "__main__":
         package_path = os.path.join(cur_path, 'package.json')
         lock_path = os.path.join(cur_path, 'build.lock')
         index_path = os.path.join(cur_path, 'build.index')
+        images_folder = os.path.join(cur_path, DIST_FOLDER, DIST_IMAGES_FOLDER)
 
         ## Preload package.json
         with open(package_path, 'r') as json_file:
@@ -198,6 +267,9 @@ if __name__ == "__main__":
         ## Download apps from Apple
         locale_to_apps, publish_date = download_apps(LOCALES, load_lock(lock_path), prod)
 
+        ## Download images (only once for all locales using default locale)
+        image_map = download_images(locale_to_apps[DEFAULT_LOCALE], images_folder)
+
         ## Load existing index of last generated apps
         index = load_index(index_path)
 
@@ -206,8 +278,8 @@ if __name__ == "__main__":
             print ('Generating locale: ', locale)
 
             prefix = locale + '_'
-            dist_json(apps, os.path.join(cur_path, DIST_FOLDER, prefix + DIST_JSON))
-            dist_csv(apps, os.path.join(cur_path, DIST_FOLDER, prefix + DIST_CSV))
+            dist_json(apps, image_map, os.path.join(cur_path, DIST_FOLDER, prefix + DIST_JSON))
+            dist_csv(apps, image_map, os.path.join(cur_path, DIST_FOLDER, prefix + DIST_CSV))
             
             tpl = readme_template.replace(SRC_LOGO_PLACEHOLDER, '../')
             tpl = tpl.replace(SRC_L10N_LINKS_PLACEHOLDER, '')

@@ -25,5 +25,7 @@ prod:
 
 .PHONY: clean
 clean:
+	@rm -f dist/images/*
+	@rmdir dist/images
 	@rm -f dist/*
 	@rm -f localized/*
