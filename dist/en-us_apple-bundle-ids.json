@@ -2,291 +2,349 @@
   {
     "name": "App Store",
     "bundle_id": "com.apple.AppStore",
-    "img_src": "https://help.apple.com/assets/68A38E3994BDB53F0B0ABD67/68A38E3D94BDB53F0B0ABD6D/en_US/071e3d808543888575c6809333e268ee.png"
+    "img_src": "https://help.apple.com/assets/68DAC6E52F03DC81360CDE2C/68DAC6E92F03DC81360CDE32/en_US/071e3d808543888575c6809333e268ee.png",
+    "img_file": "images/com_apple_appstore.png"
   },
   {
     "name": "Apple Store",
     "bundle_id": "com.apple.store.Jolly",
-    "img_src": "https://help.apple.com/assets/68A38E3994BDB53F0B0ABD67/68A38E3D94BDB53F0B0ABD6D/en_US/3aa245d67f58556018efaf0a0e703363.png"
+    "img_src": "https://help.apple.com/assets/68DAC6E52F03DC81360CDE2C/68DAC6E92F03DC81360CDE32/en_US/3aa245d67f58556018efaf0a0e703363.png",
+    "img_file": "images/com_apple_store_jolly.png"
   },
   {
     "name": "Apple Vision Pro",
     "bundle_id": "com.apple.visionproapp",
-    "img_src": "https://help.apple.com/assets/68A38E3994BDB53F0B0ABD67/68A38E3D94BDB53F0B0ABD6D/en_US/68132eb07bb1f0d65cc8c747a395be74.png"
+    "img_src": "https://help.apple.com/assets/68DAC6E52F03DC81360CDE2C/68DAC6E92F03DC81360CDE32/en_US/68132eb07bb1f0d65cc8c747a395be74.png",
+    "img_file": "images/com_apple_visionproapp.png"
   },
   {
     "name": "Barcode Scanner",
     "bundle_id": "com.apple.BarcodeScanner",
-    "img_src": "https://help.apple.com/assets/68A38E3994BDB53F0B0ABD67/68A38E3D94BDB53F0B0ABD6D/en_US/ca5a1e4072313662b6c482f355832655.png"
+    "img_src": "https://help.apple.com/assets/68DAC6E52F03DC81360CDE2C/68DAC6E92F03DC81360CDE32/en_US/ca5a1e4072313662b6c482f355832655.png",
+    "img_file": "images/com_apple_barcodescanner.png"
   },
   {
     "name": "Books",
     "bundle_id": "com.apple.iBooks",
-    "img_src": "https://help.apple.com/assets/68A38E3994BDB53F0B0ABD67/68A38E3D94BDB53F0B0ABD6D/en_US/4ce7080ba99d1cf2fb7e1ceb4faba546.png"
+    "img_src": "https://help.apple.com/assets/68DAC6E52F03DC81360CDE2C/68DAC6E92F03DC81360CDE32/en_US/4ce7080ba99d1cf2fb7e1ceb4faba546.png",
+    "img_file": "images/com_apple_ibooks.png"
   },
   {
     "name": "Calculator",
     "bundle_id": "com.apple.calculator",
-    "img_src": "https://help.apple.com/assets/68A38E3994BDB53F0B0ABD67/68A38E3D94BDB53F0B0ABD6D/en_US/ab8dd0573297379c23f2d9fc443be5b4.png"
+    "img_src": "https://help.apple.com/assets/68DAC6E52F03DC81360CDE2C/68DAC6E92F03DC81360CDE32/en_US/ab8dd0573297379c23f2d9fc443be5b4.png",
+    "img_file": "images/com_apple_calculator.png"
   },
   {
     "name": "Calendar",
     "bundle_id": "com.apple.mobilecal",
-    "img_src": "https://help.apple.com/assets/68A38E3994BDB53F0B0ABD67/68A38E3D94BDB53F0B0ABD6D/en_US/4aa265c5603173e8695be48df19d1cd1.png"
+    "img_src": "https://help.apple.com/assets/68DAC6E52F03DC81360CDE2C/68DAC6E92F03DC81360CDE32/en_US/4aa265c5603173e8695be48df19d1cd1.png",
+    "img_file": "images/com_apple_mobilecal.png"
   },
   {
     "name": "Camera",
     "bundle_id": "com.apple.camera",
-    "img_src": "https://help.apple.com/assets/68A38E3994BDB53F0B0ABD67/68A38E3D94BDB53F0B0ABD6D/en_US/d83b0c771bd8e11eff8fb422eb26f899.png"
+    "img_src": "https://help.apple.com/assets/68DAC6E52F03DC81360CDE2C/68DAC6E92F03DC81360CDE32/en_US/d83b0c771bd8e11eff8fb422eb26f899.png",
+    "img_file": "images/com_apple_camera.png"
   },
   {
     "name": "Clips",
     "bundle_id": "com.apple.clips",
-    "img_src": "https://help.apple.com/assets/68A38E3994BDB53F0B0ABD67/68A38E3D94BDB53F0B0ABD6D/en_US/dd89c64a50298e69d1e7cf960d52726f.png"
+    "img_src": "https://help.apple.com/assets/68DAC6E52F03DC81360CDE2C/68DAC6E92F03DC81360CDE32/en_US/dd89c64a50298e69d1e7cf960d52726f.png",
+    "img_file": "images/com_apple_clips.png"
   },
   {
     "name": "Clock",
     "bundle_id": "com.apple.mobiletimer",
-    "img_src": "https://help.apple.com/assets/68A38E3994BDB53F0B0ABD67/68A38E3D94BDB53F0B0ABD6D/en_US/cf7887851fe5a3de6c26e36bcfa1288a.png"
+    "img_src": "https://help.apple.com/assets/68DAC6E52F03DC81360CDE2C/68DAC6E92F03DC81360CDE32/en_US/cf7887851fe5a3de6c26e36bcfa1288a.png",
+    "img_file": "images/com_apple_mobiletimer.png"
   },
   {
     "name": "Compass",
     "bundle_id": "com.apple.compass",
-    "img_src": "https://help.apple.com/assets/68A38E3994BDB53F0B0ABD67/68A38E3D94BDB53F0B0ABD6D/en_US/e1ae2449ece5ff4a768f606d8b852b16.png"
+    "img_src": "https://help.apple.com/assets/68DAC6E52F03DC81360CDE2C/68DAC6E92F03DC81360CDE32/en_US/e1ae2449ece5ff4a768f606d8b852b16.png",
+    "img_file": "images/com_apple_compass.png"
   },
   {
     "name": "Contacts",
     "bundle_id": "com.apple.MobileAddressBook",
-    "img_src": "https://help.apple.com/assets/68A38E3994BDB53F0B0ABD67/68A38E3D94BDB53F0B0ABD6D/en_US/ac29af9afd2d17634110bf8d2fa68727.png"
+    "img_src": "https://help.apple.com/assets/68DAC6E52F03DC81360CDE2C/68DAC6E92F03DC81360CDE32/en_US/ac29af9afd2d17634110bf8d2fa68727.png",
+    "img_file": "images/com_apple_mobileaddressbook.png"
   },
   {
     "name": "Developer",
     "bundle_id": "developer.apple.wwdc-Release",
-    "img_src": "https://help.apple.com/assets/68A38E3994BDB53F0B0ABD67/68A38E3D94BDB53F0B0ABD6D/en_US/964ccbcbded3058f3a838b85b7d24c2f.png"
+    "img_src": "https://help.apple.com/assets/68DAC6E52F03DC81360CDE2C/68DAC6E92F03DC81360CDE32/en_US/964ccbcbded3058f3a838b85b7d24c2f.png",
+    "img_file": "images/developer_apple_wwdc-release.png"
   },
   {
     "name": "FaceTime",
     "bundle_id": "com.apple.facetime",
-    "img_src": "https://help.apple.com/assets/68A38E3994BDB53F0B0ABD67/68A38E3D94BDB53F0B0ABD6D/en_US/9868795ff25ef207a95d8374ae894aba.png"
+    "img_src": "https://help.apple.com/assets/68DAC6E52F03DC81360CDE2C/68DAC6E92F03DC81360CDE32/en_US/9868795ff25ef207a95d8374ae894aba.png",
+    "img_file": "images/com_apple_facetime.png"
   },
   {
     "name": "Files",
     "bundle_id": "com.apple.DocumentsApp",
-    "img_src": "https://help.apple.com/assets/68A38E3994BDB53F0B0ABD67/68A38E3D94BDB53F0B0ABD6D/en_US/6f00e551511672f29c1dfb5cd6a4a601.png"
+    "img_src": "https://help.apple.com/assets/68DAC6E52F03DC81360CDE2C/68DAC6E92F03DC81360CDE32/en_US/6f00e551511672f29c1dfb5cd6a4a601.png",
+    "img_file": "images/com_apple_documentsapp.png"
   },
   {
     "name": "Find My",
     "bundle_id": "com.apple.findmy",
-    "img_src": "https://help.apple.com/assets/68A38E3994BDB53F0B0ABD67/68A38E3D94BDB53F0B0ABD6D/en_US/5950824507e491d57be65034bf29a0ab.png"
+    "img_src": "https://help.apple.com/assets/68DAC6E52F03DC81360CDE2C/68DAC6E92F03DC81360CDE32/en_US/5950824507e491d57be65034bf29a0ab.png",
+    "img_file": "images/com_apple_findmy.png"
   },
   {
     "name": "Fitness",
     "bundle_id": "com.apple.Fitness",
-    "img_src": "https://help.apple.com/assets/68A38E3994BDB53F0B0ABD67/68A38E3D94BDB53F0B0ABD6D/en_US/f594631046db54f6326160c45fa6c9ea.png"
+    "img_src": "https://help.apple.com/assets/68DAC6E52F03DC81360CDE2C/68DAC6E92F03DC81360CDE32/en_US/f594631046db54f6326160c45fa6c9ea.png",
+    "img_file": "images/com_apple_fitness.png"
   },
   {
     "name": "Freeform",
     "bundle_id": "com.apple.freeform",
-    "img_src": "https://help.apple.com/assets/68A38E3994BDB53F0B0ABD67/68A38E3D94BDB53F0B0ABD6D/en_US/5fb4c4a70f03170b245385137aac8aa3.png"
+    "img_src": "https://help.apple.com/assets/68DAC6E52F03DC81360CDE2C/68DAC6E92F03DC81360CDE32/en_US/5fb4c4a70f03170b245385137aac8aa3.png",
+    "img_file": "images/com_apple_freeform.png"
   },
   {
     "name": "Games",
     "bundle_id": "com.apple.games",
-    "img_src": "https://help.apple.com/assets/68A38E3994BDB53F0B0ABD67/68A38E3D94BDB53F0B0ABD6D/en_US/ac882cf17b94e38acaa48601ea811177.png"
+    "img_src": "https://help.apple.com/assets/68DAC6E52F03DC81360CDE2C/68DAC6E92F03DC81360CDE32/en_US/ac882cf17b94e38acaa48601ea811177.png",
+    "img_file": "images/com_apple_games.png"
   },
   {
     "name": "GarageBand",
     "bundle_id": "com.apple.mobilegarageband",
-    "img_src": "https://help.apple.com/assets/68A38E3994BDB53F0B0ABD67/68A38E3D94BDB53F0B0ABD6D/en_US/9ded1a37474fc59b6451a6373a142ad7.png"
+    "img_src": "https://help.apple.com/assets/68DAC6E52F03DC81360CDE2C/68DAC6E92F03DC81360CDE32/en_US/9ded1a37474fc59b6451a6373a142ad7.png",
+    "img_file": "images/com_apple_mobilegarageband.png"
   },
   {
     "name": "Health",
     "bundle_id": "com.apple.Health",
-    "img_src": "https://help.apple.com/assets/68A38E3994BDB53F0B0ABD67/68A38E3D94BDB53F0B0ABD6D/en_US/65718d0717bdb4b6e4c9c3f3e62df0a8.png"
+    "img_src": "https://help.apple.com/assets/68DAC6E52F03DC81360CDE2C/68DAC6E92F03DC81360CDE32/en_US/65718d0717bdb4b6e4c9c3f3e62df0a8.png",
+    "img_file": "images/com_apple_health.png"
   },
   {
     "name": "Home",
     "bundle_id": "com.apple.Home",
-    "img_src": "https://help.apple.com/assets/68A38E3994BDB53F0B0ABD67/68A38E3D94BDB53F0B0ABD6D/en_US/1205f679b38b123bc51ae6f39f928425.png"
+    "img_src": "https://help.apple.com/assets/68DAC6E52F03DC81360CDE2C/68DAC6E92F03DC81360CDE32/en_US/1205f679b38b123bc51ae6f39f928425.png",
+    "img_file": "images/com_apple_home.png"
   },
   {
     "name": "iCloud Drive",
     "bundle_id": "com.apple.iCloudDriveApp",
-    "img_src": "https://help.apple.com/assets/68A38E3994BDB53F0B0ABD67/68A38E3D94BDB53F0B0ABD6D/en_US/360b9f7ed11b719dab6849ccf2f36c4d.png"
+    "img_src": "https://help.apple.com/assets/68DAC6E52F03DC81360CDE2C/68DAC6E92F03DC81360CDE32/en_US/360b9f7ed11b719dab6849ccf2f36c4d.png",
+    "img_file": "images/com_apple_iclouddriveapp.png"
   },
   {
     "name": "iMovie",
     "bundle_id": "com.apple.iMovie",
-    "img_src": "https://help.apple.com/assets/68A38E3994BDB53F0B0ABD67/68A38E3D94BDB53F0B0ABD6D/en_US/d648727d6a75c04a00f37fcdf6cf8e89.png"
+    "img_src": "https://help.apple.com/assets/68DAC6E52F03DC81360CDE2C/68DAC6E92F03DC81360CDE32/en_US/d648727d6a75c04a00f37fcdf6cf8e89.png",
+    "img_file": "images/com_apple_imovie.png"
   },
   {
     "name": "Invites",
     "bundle_id": "com.apple.rsvp",
-    "img_src": "https://help.apple.com/assets/68A38E3994BDB53F0B0ABD67/68A38E3D94BDB53F0B0ABD6D/en_US/1914fc663f67825e1d88aa229056328b.png"
+    "img_src": "https://help.apple.com/assets/68DAC6E52F03DC81360CDE2C/68DAC6E92F03DC81360CDE32/en_US/1914fc663f67825e1d88aa229056328b.png",
+    "img_file": "images/com_apple_rsvp.png"
   },
   {
     "name": "iTunes Store",
     "bundle_id": "com.apple.MobileStore",
-    "img_src": "https://help.apple.com/assets/68A38E3994BDB53F0B0ABD67/68A38E3D94BDB53F0B0ABD6D/en_US/3492fe28adf19dd77236362c7b50cf3b.png"
+    "img_src": "https://help.apple.com/assets/68DAC6E52F03DC81360CDE2C/68DAC6E92F03DC81360CDE32/en_US/3492fe28adf19dd77236362c7b50cf3b.png",
+    "img_file": "images/com_apple_mobilestore.png"
   },
   {
     "name": "Journal",
     "bundle_id": "com.apple.journal",
-    "img_src": "https://help.apple.com/assets/68A38E3994BDB53F0B0ABD67/68A38E3D94BDB53F0B0ABD6D/en_US/73b9ae126aee1b78cf3a0326c16f2eb6.png"
+    "img_src": "https://help.apple.com/assets/68DAC6E52F03DC81360CDE2C/68DAC6E92F03DC81360CDE32/en_US/73b9ae126aee1b78cf3a0326c16f2eb6.png",
+    "img_file": "images/com_apple_journal.png"
   },
   {
     "name": "Keynote",
     "bundle_id": "com.apple.Keynote",
-    "img_src": "https://help.apple.com/assets/68A38E3994BDB53F0B0ABD67/68A38E3D94BDB53F0B0ABD6D/en_US/4404f94bb00a8e0e08be4d39f1bdc57a.png"
+    "img_src": "https://help.apple.com/assets/68DAC6E52F03DC81360CDE2C/68DAC6E92F03DC81360CDE32/en_US/4404f94bb00a8e0e08be4d39f1bdc57a.png",
+    "img_file": "images/com_apple_keynote.png"
   },
   {
     "name": "Magnifier",
     "bundle_id": "com.apple.Magnifier",
-    "img_src": "https://help.apple.com/assets/68A38E3994BDB53F0B0ABD67/68A38E3D94BDB53F0B0ABD6D/en_US/6c2e0c6768f9348e652b29c821e9c7a7.png"
+    "img_src": "https://help.apple.com/assets/68DAC6E52F03DC81360CDE2C/68DAC6E92F03DC81360CDE32/en_US/6c2e0c6768f9348e652b29c821e9c7a7.png",
+    "img_file": "images/com_apple_magnifier.png"
   },
   {
     "name": "Mail",
     "bundle_id": "com.apple.mobilemail",
-    "img_src": "https://help.apple.com/assets/68A38E3994BDB53F0B0ABD67/68A38E3D94BDB53F0B0ABD6D/en_US/0681f83644561a952a68671dabeaaf0a.png"
+    "img_src": "https://help.apple.com/assets/68DAC6E52F03DC81360CDE2C/68DAC6E92F03DC81360CDE32/en_US/0681f83644561a952a68671dabeaaf0a.png",
+    "img_file": "images/com_apple_mobilemail.png"
   },
   {
     "name": "Maps",
     "bundle_id": "com.apple.Maps",
-    "img_src": "https://help.apple.com/assets/68A38E3994BDB53F0B0ABD67/68A38E3D94BDB53F0B0ABD6D/en_US/4b6688e61702fb24a58390662791ed71.png"
+    "img_src": "https://help.apple.com/assets/68DAC6E52F03DC81360CDE2C/68DAC6E92F03DC81360CDE32/en_US/4b6688e61702fb24a58390662791ed71.png",
+    "img_file": "images/com_apple_maps.png"
   },
   {
     "name": "Measure",
     "bundle_id": "com.apple.measure",
-    "img_src": "https://help.apple.com/assets/68A38E3994BDB53F0B0ABD67/68A38E3D94BDB53F0B0ABD6D/en_US/57cc1c3a10ef36f79edc6f0c2e340f96.png"
+    "img_src": "https://help.apple.com/assets/68DAC6E52F03DC81360CDE2C/68DAC6E92F03DC81360CDE32/en_US/57cc1c3a10ef36f79edc6f0c2e340f96.png",
+    "img_file": "images/com_apple_measure.png"
   },
   {
     "name": "Messages",
     "bundle_id": "com.apple.MobileSMS",
-    "img_src": "https://help.apple.com/assets/68A38E3994BDB53F0B0ABD67/68A38E3D94BDB53F0B0ABD6D/en_US/a4faeae46cd6efcfd95ec07fd493dc61.png"
+    "img_src": "https://help.apple.com/assets/68DAC6E52F03DC81360CDE2C/68DAC6E92F03DC81360CDE32/en_US/a4faeae46cd6efcfd95ec07fd493dc61.png",
+    "img_file": "images/com_apple_mobilesms.png"
   },
   {
     "name": "Music",
     "bundle_id": "com.apple.Music",
-    "img_src": "https://help.apple.com/assets/68A38E3994BDB53F0B0ABD67/68A38E3D94BDB53F0B0ABD6D/en_US/a7fef635e58c9598401c8752e148c818.png"
+    "img_src": "https://help.apple.com/assets/68DAC6E52F03DC81360CDE2C/68DAC6E92F03DC81360CDE32/en_US/a7fef635e58c9598401c8752e148c818.png",
+    "img_file": "images/com_apple_music.png"
   },
   {
     "name": "News",
     "bundle_id": "com.apple.news",
-    "img_src": "https://help.apple.com/assets/68A38E3994BDB53F0B0ABD67/68A38E3D94BDB53F0B0ABD6D/en_US/b4655ffc33a363351cf022675f727b42.png"
+    "img_src": "https://help.apple.com/assets/68DAC6E52F03DC81360CDE2C/68DAC6E92F03DC81360CDE32/en_US/b4655ffc33a363351cf022675f727b42.png",
+    "img_file": "images/com_apple_news.png"
   },
   {
     "name": "Notes",
     "bundle_id": "com.apple.mobilenotes",
-    "img_src": "https://help.apple.com/assets/68A38E3994BDB53F0B0ABD67/68A38E3D94BDB53F0B0ABD6D/en_US/0023b78fd2538767108dda657985d7d7.png"
+    "img_src": "https://help.apple.com/assets/68DAC6E52F03DC81360CDE2C/68DAC6E92F03DC81360CDE32/en_US/0023b78fd2538767108dda657985d7d7.png",
+    "img_file": "images/com_apple_mobilenotes.png"
   },
   {
     "name": "Numbers",
     "bundle_id": "com.apple.Numbers",
-    "img_src": "https://help.apple.com/assets/68A38E3994BDB53F0B0ABD67/68A38E3D94BDB53F0B0ABD6D/en_US/3156cd57bc854ec55158024a44569849.png"
+    "img_src": "https://help.apple.com/assets/68DAC6E52F03DC81360CDE2C/68DAC6E92F03DC81360CDE32/en_US/3156cd57bc854ec55158024a44569849.png",
+    "img_file": "images/com_apple_numbers.png"
   },
   {
     "name": "Pages",
     "bundle_id": "com.apple.Pages",
-    "img_src": "https://help.apple.com/assets/68A38E3994BDB53F0B0ABD67/68A38E3D94BDB53F0B0ABD6D/en_US/86225a29f6b8b34f25ee43e8adf8e3d2.png"
+    "img_src": "https://help.apple.com/assets/68DAC6E52F03DC81360CDE2C/68DAC6E92F03DC81360CDE32/en_US/86225a29f6b8b34f25ee43e8adf8e3d2.png",
+    "img_file": "images/com_apple_pages.png"
   },
   {
     "name": "Passwords",
     "bundle_id": "com.apple.Passwords",
-    "img_src": "https://help.apple.com/assets/68A38E3994BDB53F0B0ABD67/68A38E3D94BDB53F0B0ABD6D/en_US/55ca219f0b08e951bc9ce37e5294a5bf.png"
+    "img_src": "https://help.apple.com/assets/68DAC6E52F03DC81360CDE2C/68DAC6E92F03DC81360CDE32/en_US/55ca219f0b08e951bc9ce37e5294a5bf.png",
+    "img_file": "images/com_apple_passwords.png"
   },
   {
     "name": "Phone",
     "bundle_id": "com.apple.mobilephone",
-    "img_src": "https://help.apple.com/assets/68A38E3994BDB53F0B0ABD67/68A38E3D94BDB53F0B0ABD6D/en_US/4d33e010b45a62316127fae0e1dc7d58.png"
+    "img_src": "https://help.apple.com/assets/68DAC6E52F03DC81360CDE2C/68DAC6E92F03DC81360CDE32/en_US/4d33e010b45a62316127fae0e1dc7d58.png",
+    "img_file": "images/com_apple_mobilephone.png"
   },
   {
     "name": "Photo Booth",
     "bundle_id": "com.apple.Photo-Booth",
-    "img_src": "https://help.apple.com/assets/68A38E3994BDB53F0B0ABD67/68A38E3D94BDB53F0B0ABD6D/en_US/4c542052a9746167421125c71fc58328.png"
+    "img_src": "https://help.apple.com/assets/68DAC6E52F03DC81360CDE2C/68DAC6E92F03DC81360CDE32/en_US/4c542052a9746167421125c71fc58328.png",
+    "img_file": "images/com_apple_photo-booth.png"
   },
   {
     "name": "Photos",
     "bundle_id": "com.apple.mobileslideshow",
-    "img_src": "https://help.apple.com/assets/68A38E3994BDB53F0B0ABD67/68A38E3D94BDB53F0B0ABD6D/en_US/634eb7f2c34770bf0e66021b07c740ae.png"
+    "img_src": "https://help.apple.com/assets/68DAC6E52F03DC81360CDE2C/68DAC6E92F03DC81360CDE32/en_US/634eb7f2c34770bf0e66021b07c740ae.png",
+    "img_file": "images/com_apple_mobileslideshow.png"
   },
   {
     "name": "Playground",
     "bundle_id": "com.apple.GenerativePlaygroundApp",
-    "img_src": "https://help.apple.com/assets/68A38E3994BDB53F0B0ABD67/68A38E3D94BDB53F0B0ABD6D/en_US/5ed14a83f485d25c5c77340192dcd8f0.png"
+    "img_src": "https://help.apple.com/assets/68DAC6E52F03DC81360CDE2C/68DAC6E92F03DC81360CDE32/en_US/5ed14a83f485d25c5c77340192dcd8f0.png",
+    "img_file": "images/com_apple_generativeplaygroundapp.png"
   },
   {
     "name": "Podcasts",
     "bundle_id": "com.apple.podcasts",
-    "img_src": "https://help.apple.com/assets/68A38E3994BDB53F0B0ABD67/68A38E3D94BDB53F0B0ABD6D/en_US/4914435d08e26901613dd885d33e874a.png"
+    "img_src": "https://help.apple.com/assets/68DAC6E52F03DC81360CDE2C/68DAC6E92F03DC81360CDE32/en_US/4914435d08e26901613dd885d33e874a.png",
+    "img_file": "images/com_apple_podcasts.png"
   },
   {
     "name": "Preview",
     "bundle_id": "com.apple.Preview",
-    "img_src": "https://help.apple.com/assets/68A38E3994BDB53F0B0ABD67/68A38E3D94BDB53F0B0ABD6D/en_US/6da7b79db099bc30de617e577dd5dffb.png"
+    "img_src": "https://help.apple.com/assets/68DAC6E52F03DC81360CDE2C/68DAC6E92F03DC81360CDE32/en_US/6da7b79db099bc30de617e577dd5dffb.png",
+    "img_file": "images/com_apple_preview.png"
   },
   {
     "name": "Reminders",
     "bundle_id": "com.apple.reminders",
-    "img_src": "https://help.apple.com/assets/68A38E3994BDB53F0B0ABD67/68A38E3D94BDB53F0B0ABD6D/en_US/9fbbd0b8090dadb79bc3e8303ecc0e47.png"
+    "img_src": "https://help.apple.com/assets/68DAC6E52F03DC81360CDE2C/68DAC6E92F03DC81360CDE32/en_US/9fbbd0b8090dadb79bc3e8303ecc0e47.png",
+    "img_file": "images/com_apple_reminders.png"
   },
   {
     "name": "Safari",
     "bundle_id": "com.apple.mobilesafari",
-    "img_src": "https://help.apple.com/assets/68A38E3994BDB53F0B0ABD67/68A38E3D94BDB53F0B0ABD6D/en_US/4236b540374dd23e0ba9e00d84f328ac.png"
+    "img_src": "https://help.apple.com/assets/68DAC6E52F03DC81360CDE2C/68DAC6E92F03DC81360CDE32/en_US/4236b540374dd23e0ba9e00d84f328ac.png",
+    "img_file": "images/com_apple_mobilesafari.png"
   },
   {
     "name": "Settings",
     "bundle_id": "com.apple.Preferences",
-    "img_src": "https://help.apple.com/assets/68A38E3994BDB53F0B0ABD67/68A38E3D94BDB53F0B0ABD6D/en_US/10da108a1ca2e743e53ff6b830473174.png"
+    "img_src": "https://help.apple.com/assets/68DAC6E52F03DC81360CDE2C/68DAC6E92F03DC81360CDE32/en_US/10da108a1ca2e743e53ff6b830473174.png",
+    "img_file": "images/com_apple_preferences.png"
   },
   {
     "name": "Shortcuts",
     "bundle_id": "com.apple.shortcuts",
-    "img_src": "https://help.apple.com/assets/68A38E3994BDB53F0B0ABD67/68A38E3D94BDB53F0B0ABD6D/en_US/e30464a5cf17b16480a09f289231c001.png"
+    "img_src": "https://help.apple.com/assets/68DAC6E52F03DC81360CDE2C/68DAC6E92F03DC81360CDE32/en_US/e30464a5cf17b16480a09f289231c001.png",
+    "img_file": "images/com_apple_shortcuts.png"
   },
   {
     "name": "Stocks",
     "bundle_id": "com.apple.stocks",
-    "img_src": "https://help.apple.com/assets/68A38E3994BDB53F0B0ABD67/68A38E3D94BDB53F0B0ABD6D/en_US/7a26f608955529ffd4e770512cc7a716.png"
+    "img_src": "https://help.apple.com/assets/68DAC6E52F03DC81360CDE2C/68DAC6E92F03DC81360CDE32/en_US/7a26f608955529ffd4e770512cc7a716.png",
+    "img_file": "images/com_apple_stocks.png"
   },
   {
     "name": "Swift Playground",
     "bundle_id": "com.apple.Playgrounds",
-    "img_src": "https://help.apple.com/assets/68A38E3994BDB53F0B0ABD67/68A38E3D94BDB53F0B0ABD6D/en_US/7c2614bc7187301108596bcfa1bf1b89.png"
+    "img_src": "https://help.apple.com/assets/68DAC6E52F03DC81360CDE2C/68DAC6E92F03DC81360CDE32/en_US/7c2614bc7187301108596bcfa1bf1b89.png",
+    "img_file": "images/com_apple_playgrounds.png"
   },
   {
     "name": "Tips",
     "bundle_id": "com.apple.tips",
-    "img_src": "https://help.apple.com/assets/68A38E3994BDB53F0B0ABD67/68A38E3D94BDB53F0B0ABD6D/en_US/4adb39ac3f65db381333d01c51f5319b.png"
+    "img_src": "https://help.apple.com/assets/68DAC6E52F03DC81360CDE2C/68DAC6E92F03DC81360CDE32/en_US/4adb39ac3f65db381333d01c51f5319b.png",
+    "img_file": "images/com_apple_tips.png"
   },
   {
     "name": "Translate",
     "bundle_id": "com.apple.Translate",
-    "img_src": "https://help.apple.com/assets/68A38E3994BDB53F0B0ABD67/68A38E3D94BDB53F0B0ABD6D/en_US/74aa668910bcfb88d7e8aa3f80a1f6f3.png"
+    "img_src": "https://help.apple.com/assets/68DAC6E52F03DC81360CDE2C/68DAC6E92F03DC81360CDE32/en_US/74aa668910bcfb88d7e8aa3f80a1f6f3.png",
+    "img_file": "images/com_apple_translate.png"
   },
   {
     "name": "TV",
     "bundle_id": "com.apple.tv",
-    "img_src": "https://help.apple.com/assets/68A38E3994BDB53F0B0ABD67/68A38E3D94BDB53F0B0ABD6D/en_US/25f38412b910d9c8e9aa0b501e4ba5ab.png"
+    "img_src": "https://help.apple.com/assets/68DAC6E52F03DC81360CDE2C/68DAC6E92F03DC81360CDE32/en_US/25f38412b910d9c8e9aa0b501e4ba5ab.png",
+    "img_file": "images/com_apple_tv.png"
   },
   {
     "name": "Voice Memos",
     "bundle_id": "com.apple.VoiceMemos",
-    "img_src": "https://help.apple.com/assets/68A38E3994BDB53F0B0ABD67/68A38E3D94BDB53F0B0ABD6D/en_US/d2cdf4b7cd60262c6ecfab65d55d6b44.png"
+    "img_src": "https://help.apple.com/assets/68DAC6E52F03DC81360CDE2C/68DAC6E92F03DC81360CDE32/en_US/d2cdf4b7cd60262c6ecfab65d55d6b44.png",
+    "img_file": "images/com_apple_voicememos.png"
   },
   {
     "name": "Wallet",
     "bundle_id": "com.apple.Passbook",
-    "img_src": "https://help.apple.com/assets/68A38E3994BDB53F0B0ABD67/68A38E3D94BDB53F0B0ABD6D/en_US/59444fe32082698a130fb0e842f45f49.png"
+    "img_src": "https://help.apple.com/assets/68DAC6E52F03DC81360CDE2C/68DAC6E92F03DC81360CDE32/en_US/59444fe32082698a130fb0e842f45f49.png",
+    "img_file": "images/com_apple_passbook.png"
   },
   {
     "name": "Watch",
     "bundle_id": "com.apple.Bridge",
-    "img_src": "https://help.apple.com/assets/68A38E3994BDB53F0B0ABD67/68A38E3D94BDB53F0B0ABD6D/en_US/a03bb76334d7e969a2bbcbeefc515790.png"
+    "img_src": "https://help.apple.com/assets/68DAC6E52F03DC81360CDE2C/68DAC6E92F03DC81360CDE32/en_US/a03bb76334d7e969a2bbcbeefc515790.png",
+    "img_file": "images/com_apple_bridge.png"
   },
   {
     "name": "Weather",
     "bundle_id": "com.apple.weather",
-    "img_src": "https://help.apple.com/assets/68A38E3994BDB53F0B0ABD67/68A38E3D94BDB53F0B0ABD6D/en_US/c48a1bb92c915a0bb187ab3d87144263.png"
+    "img_src": "https://help.apple.com/assets/68DAC6E52F03DC81360CDE2C/68DAC6E92F03DC81360CDE32/en_US/c48a1bb92c915a0bb187ab3d87144263.png",
+    "img_file": "images/com_apple_weather.png"
   }
 ]

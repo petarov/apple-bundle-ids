@@ -13,67 +13,70 @@ Apple's Bundle IDs for native iPhone and iPad apps. The table below lists the na
 
 This list is automatically rebuilt once a month, but only if changes are detected on Apple’s Bundle IDs website.
 
-**55** apps - v1.0.1 built on Oct 14, 2025 at 04:02 | See also :point_right: [App Store Web Search](https://github.com/petarov/appstore-web-search)
+**58** apps - v1.0.2 built on Dec 08, 2025 at 21:57 | See also :point_right: [App Store Web Search](https://github.com/petarov/appstore-web-search)
 
 
 
 | Icon | App Name | Bundle ID |
 | --- | --- | --- |
-| ![App Icon](https://help.apple.com/assets/685C8164AAE1A18A0C0ABFC6/685C816A53E29BFB1A044B39/zh_CN/c0b2e5615a23beca598e9a389f2a8299.png) | 备忘录 |  com.apple.mobilenotes
-| ![App Icon](https://help.apple.com/assets/685C8164AAE1A18A0C0ABFC6/685C816A53E29BFB1A044B39/zh_CN/aa0d7270566902790647a2d674334fbb.png) | 播客 |  com.apple.podcasts
-| ![App Icon](https://help.apple.com/assets/685C8164AAE1A18A0C0ABFC6/685C816A53E29BFB1A044B39/zh_CN/63fa68e20397e9b04963deaaceed64fe.png) | 测距仪 |  com.apple.measure
-| ![App Icon](https://help.apple.com/assets/685C8164AAE1A18A0C0ABFC6/685C816A53E29BFB1A044B39/zh_CN/517f23fce6cb0ce5aa8c36bfa5cf5ce3.png) | 查找 |  com.apple.findmy
-| ![App Icon](https://help.apple.com/assets/685C8164AAE1A18A0C0ABFC6/685C816A53E29BFB1A044B39/zh_CN/21e8c59cd2f31008048b15875a0abc56.png) | 地图 |  com.apple.Maps
-| ![App Icon](https://help.apple.com/assets/685C8164AAE1A18A0C0ABFC6/685C816A53E29BFB1A044B39/zh_CN/4b79edee58737b87ad81195e6f3dd4da.png) | 电话 |  com.apple.mobilephone
-| ![App Icon](https://help.apple.com/assets/685C8164AAE1A18A0C0ABFC6/685C816A53E29BFB1A044B39/zh_CN/4b5d59237c84dd7436631525e8a6a3e4.png) | 翻译 |  com.apple.Translate
-| ![App Icon](https://help.apple.com/assets/685C8164AAE1A18A0C0ABFC6/685C816A53E29BFB1A044B39/zh_CN/3f46f04e5802f10fc0b0e8ec05a7a84a.png) | 放大器 |  com.apple.Magnifier
-| ![App Icon](https://help.apple.com/assets/685C8164AAE1A18A0C0ABFC6/685C816A53E29BFB1A044B39/zh_CN/903deff89ddd59acfbd8c6caab55a1bb.png) | 股市 |  com.apple.stocks
-| ![App Icon](https://help.apple.com/assets/685C8164AAE1A18A0C0ABFC6/685C816A53E29BFB1A044B39/zh_CN/21ec289aed65b5b3fc1141aa126b4b6e.png) | 活动邀请 |  com.apple.rsvp
-| ![App Icon](https://help.apple.com/assets/685C8164AAE1A18A0C0ABFC6/685C816A53E29BFB1A044B39/zh_CN/7c97cffba40e56cf9e2ccde17c2fbc3a.png) | 计算器 |  com.apple.calculator
-| ![App Icon](https://help.apple.com/assets/685C8164AAE1A18A0C0ABFC6/685C816A53E29BFB1A044B39/zh_CN/01ef17ed118fde0508f256c8c7de5468.png) | 家庭 |  com.apple.Home
-| ![App Icon](https://help.apple.com/assets/685C8164AAE1A18A0C0ABFC6/685C816A53E29BFB1A044B39/zh_CN/b0b0ac1b1c7d6b411c5e8c61ef41aa87.png) | 健康 |  com.apple.Health
-| ![App Icon](https://help.apple.com/assets/685C8164AAE1A18A0C0ABFC6/685C816A53E29BFB1A044B39/zh_CN/a4f03fe8b7b21fa3160be027c203ed91.png) | 健身 |  com.apple.Fitness
-| ![App Icon](https://help.apple.com/assets/685C8164AAE1A18A0C0ABFC6/685C816A53E29BFB1A044B39/zh_CN/db4a600f94b01081bc7465360d1224d4.png) | 可立拍 |  com.apple.clips
-| ![App Icon](https://help.apple.com/assets/685C8164AAE1A18A0C0ABFC6/685C816A53E29BFB1A044B39/zh_CN/0f841429c6c8ee40503d92a613ae39bf.png) | 库乐队 |  com.apple.mobilegarageband
-| ![App Icon](https://help.apple.com/assets/685C8164AAE1A18A0C0ABFC6/685C816A53E29BFB1A044B39/zh_CN/4df05abf5b188d68885bccb1bcf2850f.png) | 快捷指令 |  com.apple.shortcuts
-| ![App Icon](https://help.apple.com/assets/685C8164AAE1A18A0C0ABFC6/685C816A53E29BFB1A044B39/zh_CN/ff86901fcd5b91cc329ec9162f4c8b20.png) | 密码 |  com.apple.Passwords
-| ![App Icon](https://help.apple.com/assets/685C8164AAE1A18A0C0ABFC6/685C816A53E29BFB1A044B39/zh_CN/226f3fa27b98e21cbfc3bcfb1567e5f5.png) | 钱包 |  com.apple.Passbook
-| ![App Icon](https://help.apple.com/assets/685C8164AAE1A18A0C0ABFC6/685C816A53E29BFB1A044B39/zh_CN/b9ab1e6677051c83b3d943446e44a0e0.png) | 日历 |  com.apple.mobilecal
-| ![App Icon](https://help.apple.com/assets/685C8164AAE1A18A0C0ABFC6/685C816A53E29BFB1A044B39/zh_CN/d30a5c899b4d74d638b75344df55241f.png) | 设置 |  com.apple.Preferences
-| ![App Icon](https://help.apple.com/assets/685C8164AAE1A18A0C0ABFC6/685C816A53E29BFB1A044B39/zh_CN/b14f3d8973d3ca1bfa9d5ea4027f63bb.png) | 时钟 |  com.apple.mobiletimer
-| ![App Icon](https://help.apple.com/assets/685C8164AAE1A18A0C0ABFC6/685C816A53E29BFB1A044B39/zh_CN/8e6906b1c11f413896b408e665fc0471.png) | 视频 |  com.apple.tv
-| ![App Icon](https://help.apple.com/assets/685C8164AAE1A18A0C0ABFC6/685C816A53E29BFB1A044B39/zh_CN/6fbb5e5edde48d5f12f870d5b2a51441.png) | 手记 |  com.apple.journal
-| ![App Icon](https://help.apple.com/assets/685C8164AAE1A18A0C0ABFC6/685C816A53E29BFB1A044B39/zh_CN/9cf29cf7a2549bbda39f06f3c2ea7001.png) | 提示 |  com.apple.tips
-| ![App Icon](https://help.apple.com/assets/685C8164AAE1A18A0C0ABFC6/685C816A53E29BFB1A044B39/zh_CN/b00f84807218a0d62cb0929f521c2516.png) | 提醒事项 |  com.apple.reminders
-| ![App Icon](https://help.apple.com/assets/685C8164AAE1A18A0C0ABFC6/685C816A53E29BFB1A044B39/zh_CN/6d6a684739e9f5f4e6fa917443006680.png) | 天气 |  com.apple.weather
-| ![App Icon](https://help.apple.com/assets/685C8164AAE1A18A0C0ABFC6/685C816A53E29BFB1A044B39/zh_CN/6d763bf7333100d4169805acf48af972.png) | 条形码扫码器 |  com.apple.BarcodeScanner
-| ![App Icon](https://help.apple.com/assets/685C8164AAE1A18A0C0ABFC6/685C816A53E29BFB1A044B39/zh_CN/ed7c13771c0469d2ac8c43e15290f96e.png) | 通讯录 |  com.apple.MobileAddressBook
-| ![App Icon](https://help.apple.com/assets/685C8164AAE1A18A0C0ABFC6/685C816A53E29BFB1A044B39/zh_CN/a4e9cfb76cffda764ffd42814f24ad84.png) | 图乐园 |  com.apple.GenerativePlaygroundApp
-| ![App Icon](https://help.apple.com/assets/685C8164AAE1A18A0C0ABFC6/685C816A53E29BFB1A044B39/zh_CN/c88fa9ecbb6675a159f41495bb32828e.png) | 图书 |  com.apple.iBooks
-| ![App Icon](https://help.apple.com/assets/685C8164AAE1A18A0C0ABFC6/685C816A53E29BFB1A044B39/zh_CN/bbba03c60b17e15b9b3965610bb5113d.png) | 文件 |  com.apple.DocumentsApp
-| ![App Icon](https://help.apple.com/assets/685C8164AAE1A18A0C0ABFC6/685C816A53E29BFB1A044B39/zh_CN/2d4becfdf775f986b72c5aeabf88785c.png) | 无边记 |  com.apple.freeform
-| ![App Icon](https://help.apple.com/assets/685C8164AAE1A18A0C0ABFC6/685C816A53E29BFB1A044B39/zh_CN/852af75bbc61abf8ee80521e6e720a53.png) | 相机 |  com.apple.camera
-| ![App Icon](https://help.apple.com/assets/685C8164AAE1A18A0C0ABFC6/685C816A53E29BFB1A044B39/zh_CN/5902d4f959872384818a58ca6a1ae6d2.png) | 新闻 |  com.apple.news
-| ![App Icon](https://help.apple.com/assets/685C8164AAE1A18A0C0ABFC6/685C816A53E29BFB1A044B39/zh_CN/badc9485650ffe05e65b87247c1104e7.png) | 信息 |  com.apple.MobileSMS
-| ![App Icon](https://help.apple.com/assets/685C8164AAE1A18A0C0ABFC6/685C816A53E29BFB1A044B39/zh_CN/a694b0a32b8247797c9e95952f4e5df1.png) | 音乐 |  com.apple.Music
-| ![App Icon](https://help.apple.com/assets/685C8164AAE1A18A0C0ABFC6/685C816A53E29BFB1A044B39/zh_CN/aa62abf5cc9d0835a2c78f52d57361d1.png) | 邮件 |  com.apple.mobilemail
-| ![App Icon](https://help.apple.com/assets/685C8164AAE1A18A0C0ABFC6/685C816A53E29BFB1A044B39/zh_CN/34348da8f13ef5e7bcccd7f7603681b2.png) | 语音备忘录 |  com.apple.VoiceMemos
-| ![App Icon](https://help.apple.com/assets/685C8164AAE1A18A0C0ABFC6/685C816A53E29BFB1A044B39/zh_CN/98c461003313f2eba5a8e22b1c0645b3.png) | 照片 |  com.apple.mobileslideshow
-| ![App Icon](https://help.apple.com/assets/685C8164AAE1A18A0C0ABFC6/685C816A53E29BFB1A044B39/zh_CN/9b0fd77dd7bb2fd155a3105ae207c5cf.png) | 指南针 |  com.apple.compass
-| ![App Icon](https://help.apple.com/assets/685C8164AAE1A18A0C0ABFC6/685C816A53E29BFB1A044B39/zh_CN/96426e514e8d7a61582484074bcc45b8.png) | App Store |  com.apple.AppStore
-| ![App Icon](https://help.apple.com/assets/685C8164AAE1A18A0C0ABFC6/685C816A53E29BFB1A044B39/zh_CN/b2881b6dc934a86e35cabd5b1cea04d7.png) | Apple Store 商店 |  com.apple.store.Jolly
-| ![App Icon](https://help.apple.com/assets/685C8164AAE1A18A0C0ABFC6/685C816A53E29BFB1A044B39/zh_CN/5053f7e86ca80433daf81d6db7e3be94.png) | Developer |  developer.apple.wwdc-Release
-| ![App Icon](https://help.apple.com/assets/685C8164AAE1A18A0C0ABFC6/685C816A53E29BFB1A044B39/zh_CN/41f9ab48e1f232a876c8151d5ac0f624.png) | FaceTime 通话 |  com.apple.facetime
-| ![App Icon](https://help.apple.com/assets/685C8164AAE1A18A0C0ABFC6/685C816A53E29BFB1A044B39/zh_CN/c396f6a8b5dbddb3c16305d09dc50bf0.png) | iCloud 云盘 |  com.apple.iCloudDriveApp
-| ![App Icon](https://help.apple.com/assets/685C8164AAE1A18A0C0ABFC6/685C816A53E29BFB1A044B39/zh_CN/047cd8cc1ee8e11e23526c4e13d36b83.png) | iMovie 剪辑 |  com.apple.iMovie
-| ![App Icon](https://help.apple.com/assets/685C8164AAE1A18A0C0ABFC6/685C816A53E29BFB1A044B39/zh_CN/fc84d3f76f5e4c994a31a19bb20f8024.png) | iTunes Store |  com.apple.MobileStore
-| ![App Icon](https://help.apple.com/assets/685C8164AAE1A18A0C0ABFC6/685C816A53E29BFB1A044B39/zh_CN/99dec81ae642515ae23dda1df9ccf473.png) | Keynote 讲演 |  com.apple.Keynote
-| ![App Icon](https://help.apple.com/assets/685C8164AAE1A18A0C0ABFC6/685C816A53E29BFB1A044B39/zh_CN/1ad975d8d6d73976f28bd2989ff623e6.png) | Numbers 表格 |  com.apple.Numbers
-| ![App Icon](https://help.apple.com/assets/685C8164AAE1A18A0C0ABFC6/685C816A53E29BFB1A044B39/zh_CN/df93cc9c0b4eca27c6bda3ad27050405.png) | Pages 文稿 |  com.apple.Pages
-| ![App Icon](https://help.apple.com/assets/685C8164AAE1A18A0C0ABFC6/685C816A53E29BFB1A044B39/zh_CN/1f342434cb220654d752fc7e1a89c047.png) | Photo Booth |  com.apple.Photo-Booth
-| ![App Icon](https://help.apple.com/assets/685C8164AAE1A18A0C0ABFC6/685C816A53E29BFB1A044B39/zh_CN/164477f6e7625112669ec4331fe37ed6.png) | Safari 浏览器 |  com.apple.mobilesafari
-| ![App Icon](https://help.apple.com/assets/685C8164AAE1A18A0C0ABFC6/685C816A53E29BFB1A044B39/zh_CN/5fbf9f6dd414b51b287b39b6187e6a99.png) | Swift Playgrounds |  com.apple.Playgrounds
-| ![App Icon](https://help.apple.com/assets/685C8164AAE1A18A0C0ABFC6/685C816A53E29BFB1A044B39/zh_CN/88bbdf6763f0a0824b3ff636dd757e17.png) | Watch |  com.apple.Bridge
+| ![App Icon](https://help.apple.com/assets/68DAC6E52F03DC81360CDE2C/68DAC6E92F03DC81360CDE32/zh_CN/0023b78fd2538767108dda657985d7d7.png) |  备忘录 |  com.apple.mobilenotes 
+| ![App Icon](https://help.apple.com/assets/68DAC6E52F03DC81360CDE2C/68DAC6E92F03DC81360CDE32/zh_CN/4914435d08e26901613dd885d33e874a.png) |  播客 |  com.apple.podcasts 
+| ![App Icon](https://help.apple.com/assets/68DAC6E52F03DC81360CDE2C/68DAC6E92F03DC81360CDE32/zh_CN/57cc1c3a10ef36f79edc6f0c2e340f96.png) |  测距仪 |  com.apple.measure 
+| ![App Icon](https://help.apple.com/assets/68DAC6E52F03DC81360CDE2C/68DAC6E92F03DC81360CDE32/zh_CN/5950824507e491d57be65034bf29a0ab.png) |  查找 |  com.apple.findmy 
+| ![App Icon](https://help.apple.com/assets/68DAC6E52F03DC81360CDE2C/68DAC6E92F03DC81360CDE32/zh_CN/4b6688e61702fb24a58390662791ed71.png) |  地图 |  com.apple.Maps 
+| ![App Icon](https://help.apple.com/assets/68DAC6E52F03DC81360CDE2C/68DAC6E92F03DC81360CDE32/zh_CN/4d33e010b45a62316127fae0e1dc7d58.png) |  电话 |  com.apple.mobilephone 
+| ![App Icon](https://help.apple.com/assets/68DAC6E52F03DC81360CDE2C/68DAC6E92F03DC81360CDE32/zh_CN/74aa668910bcfb88d7e8aa3f80a1f6f3.png) |  翻译 |  com.apple.Translate 
+| ![App Icon](https://help.apple.com/assets/68DAC6E52F03DC81360CDE2C/68DAC6E92F03DC81360CDE32/zh_CN/0736d744dd29d0e6cb343873689a2ca8.png) |  放大器 |  com.apple.Magnifier 
+| ![App Icon](https://help.apple.com/assets/68DAC6E52F03DC81360CDE2C/68DAC6E92F03DC81360CDE32/zh_CN/7a26f608955529ffd4e770512cc7a716.png) |  股市 |  com.apple.stocks 
+| ![App Icon](https://help.apple.com/assets/68DAC6E52F03DC81360CDE2C/68DAC6E92F03DC81360CDE32/zh_CN/1914fc663f67825e1d88aa229056328b.png) |  活动邀请 |  com.apple.rsvp 
+| ![App Icon](https://help.apple.com/assets/68DAC6E52F03DC81360CDE2C/68DAC6E92F03DC81360CDE32/zh_CN/ab8dd0573297379c23f2d9fc443be5b4.png) |  计算器 |  com.apple.calculator 
+| ![App Icon](https://help.apple.com/assets/68DAC6E52F03DC81360CDE2C/68DAC6E92F03DC81360CDE32/zh_CN/1205f679b38b123bc51ae6f39f928425.png) |  家庭 |  com.apple.Home 
+| ![App Icon](https://help.apple.com/assets/68DAC6E52F03DC81360CDE2C/68DAC6E92F03DC81360CDE32/zh_CN/65718d0717bdb4b6e4c9c3f3e62df0a8.png) |  健康 |  com.apple.Health 
+| ![App Icon](https://help.apple.com/assets/68DAC6E52F03DC81360CDE2C/68DAC6E92F03DC81360CDE32/zh_CN/f594631046db54f6326160c45fa6c9ea.png) |  健身 |  com.apple.Fitness 
+| ![App Icon](https://help.apple.com/assets/68DAC6E52F03DC81360CDE2C/68DAC6E92F03DC81360CDE32/zh_CN/dd89c64a50298e69d1e7cf960d52726f.png) |  可立拍 |  com.apple.clips 
+| ![App Icon](https://help.apple.com/assets/68DAC6E52F03DC81360CDE2C/68DAC6E92F03DC81360CDE32/zh_CN/9ded1a37474fc59b6451a6373a142ad7.png) |  库乐队 |  com.apple.mobilegarageband 
+| ![App Icon](https://help.apple.com/assets/68DAC6E52F03DC81360CDE2C/68DAC6E92F03DC81360CDE32/zh_CN/e30464a5cf17b16480a09f289231c001.png) |  快捷指令 |  com.apple.shortcuts 
+| ![App Icon](https://help.apple.com/assets/68DAC6E52F03DC81360CDE2C/68DAC6E92F03DC81360CDE32/zh_CN/55ca219f0b08e951bc9ce37e5294a5bf.png) |  密码 |  com.apple.Passwords 
+| ![App Icon](https://help.apple.com/assets/68DAC6E52F03DC81360CDE2C/68DAC6E92F03DC81360CDE32/zh_CN/59444fe32082698a130fb0e842f45f49.png) |  钱包 |  com.apple.Passbook 
+| ![App Icon](https://help.apple.com/assets/68DAC6E52F03DC81360CDE2C/68DAC6E92F03DC81360CDE32/zh_CN/4ee6714debeacca3529d10e1c7788537.png) |  日历 |  com.apple.mobilecal 
+| ![App Icon](https://help.apple.com/assets/68DAC6E52F03DC81360CDE2C/68DAC6E92F03DC81360CDE32/zh_CN/10da108a1ca2e743e53ff6b830473174.png) |  设置 |  com.apple.Preferences 
+| ![App Icon](https://help.apple.com/assets/68DAC6E52F03DC81360CDE2C/68DAC6E92F03DC81360CDE32/zh_CN/cf7887851fe5a3de6c26e36bcfa1288a.png) |  时钟 |  com.apple.mobiletimer 
+| ![App Icon](https://help.apple.com/assets/68DAC6E52F03DC81360CDE2C/68DAC6E92F03DC81360CDE32/zh_CN/25f38412b910d9c8e9aa0b501e4ba5ab.png) |  视频 |  com.apple.tv 
+| ![App Icon](https://help.apple.com/assets/68DAC6E52F03DC81360CDE2C/68DAC6E92F03DC81360CDE32/zh_CN/73b9ae126aee1b78cf3a0326c16f2eb6.png) |  手记 |  com.apple.journal 
+| ![App Icon](https://help.apple.com/assets/68DAC6E52F03DC81360CDE2C/68DAC6E92F03DC81360CDE32/zh_CN/4adb39ac3f65db381333d01c51f5319b.png) |  提示 |  com.apple.tips 
+| ![App Icon](https://help.apple.com/assets/68DAC6E52F03DC81360CDE2C/68DAC6E92F03DC81360CDE32/zh_CN/9fbbd0b8090dadb79bc3e8303ecc0e47.png) |  提醒事项 |  com.apple.reminders 
+| ![App Icon](https://help.apple.com/assets/68DAC6E52F03DC81360CDE2C/68DAC6E92F03DC81360CDE32/zh_CN/c48a1bb92c915a0bb187ab3d87144263.png) |  天气 |  com.apple.weather 
+| ![App Icon](https://help.apple.com/assets/68DAC6E52F03DC81360CDE2C/68DAC6E92F03DC81360CDE32/zh_CN/ca5a1e4072313662b6c482f355832655.png) |  条形码扫码器 |  com.apple.BarcodeScanner 
+| ![App Icon](https://help.apple.com/assets/68DAC6E52F03DC81360CDE2C/68DAC6E92F03DC81360CDE32/zh_CN/ac29af9afd2d17634110bf8d2fa68727.png) |  通讯录 |  com.apple.MobileAddressBook 
+| ![App Icon](https://help.apple.com/assets/68DAC6E52F03DC81360CDE2C/68DAC6E92F03DC81360CDE32/zh_CN/5ed14a83f485d25c5c77340192dcd8f0.png) |  图乐园 |  com.apple.GenerativePlaygroundApp 
+| ![App Icon](https://help.apple.com/assets/68DAC6E52F03DC81360CDE2C/68DAC6E92F03DC81360CDE32/zh_CN/4ce7080ba99d1cf2fb7e1ceb4faba546.png) |  图书 |  com.apple.iBooks 
+| ![App Icon](https://help.apple.com/assets/68DAC6E52F03DC81360CDE2C/68DAC6E92F03DC81360CDE32/zh_CN/6f00e551511672f29c1dfb5cd6a4a601.png) |  文件 |  com.apple.DocumentsApp 
+| ![App Icon](https://help.apple.com/assets/68DAC6E52F03DC81360CDE2C/68DAC6E92F03DC81360CDE32/zh_CN/5fb4c4a70f03170b245385137aac8aa3.png) |  无边记 |  com.apple.freeform 
+| ![App Icon](https://help.apple.com/assets/68DAC6E52F03DC81360CDE2C/68DAC6E92F03DC81360CDE32/zh_CN/d83b0c771bd8e11eff8fb422eb26f899.png) |  相机 |  com.apple.camera 
+| ![App Icon](https://help.apple.com/assets/68DAC6E52F03DC81360CDE2C/68DAC6E92F03DC81360CDE32/zh_CN/b4655ffc33a363351cf022675f727b42.png) |  新闻 |  com.apple.news 
+| ![App Icon](https://help.apple.com/assets/68DAC6E52F03DC81360CDE2C/68DAC6E92F03DC81360CDE32/zh_CN/a4faeae46cd6efcfd95ec07fd493dc61.png) |  信息 |  com.apple.MobileSMS 
+| ![App Icon](https://help.apple.com/assets/68DAC6E52F03DC81360CDE2C/68DAC6E92F03DC81360CDE32/zh_CN/a7fef635e58c9598401c8752e148c818.png) |  音乐 |  com.apple.Music 
+| ![App Icon](https://help.apple.com/assets/68DAC6E52F03DC81360CDE2C/68DAC6E92F03DC81360CDE32/zh_CN/0681f83644561a952a68671dabeaaf0a.png) |  邮件 |  com.apple.mobilemail 
+| ![App Icon](https://help.apple.com/assets/68DAC6E52F03DC81360CDE2C/68DAC6E92F03DC81360CDE32/zh_CN/ac882cf17b94e38acaa48601ea811177.png) |  游戏 |  com.apple.games 
+| ![App Icon](https://help.apple.com/assets/68DAC6E52F03DC81360CDE2C/68DAC6E92F03DC81360CDE32/zh_CN/d2cdf4b7cd60262c6ecfab65d55d6b44.png) |  语音备忘录 |  com.apple.VoiceMemos 
+| ![App Icon](https://help.apple.com/assets/68DAC6E52F03DC81360CDE2C/68DAC6E92F03DC81360CDE32/zh_CN/6da7b79db099bc30de617e577dd5dffb.png) |  预览 |  com.apple.Preview 
+| ![App Icon](https://help.apple.com/assets/68DAC6E52F03DC81360CDE2C/68DAC6E92F03DC81360CDE32/zh_CN/634eb7f2c34770bf0e66021b07c740ae.png) |  照片 |  com.apple.mobileslideshow 
+| ![App Icon](https://help.apple.com/assets/68DAC6E52F03DC81360CDE2C/68DAC6E92F03DC81360CDE32/zh_CN/e1ae2449ece5ff4a768f606d8b852b16.png) |  指南针 |  com.apple.compass 
+| ![App Icon](https://help.apple.com/assets/68DAC6E52F03DC81360CDE2C/68DAC6E92F03DC81360CDE32/zh_CN/071e3d808543888575c6809333e268ee.png) |  App Store |  com.apple.AppStore 
+| ![App Icon](https://help.apple.com/assets/68DAC6E52F03DC81360CDE2C/68DAC6E92F03DC81360CDE32/zh_CN/3aa245d67f58556018efaf0a0e703363.png) |  Apple Store 商店 |  com.apple.store.Jolly 
+| ![App Icon](https://help.apple.com/assets/68DAC6E52F03DC81360CDE2C/68DAC6E92F03DC81360CDE32/zh_CN/68132eb07bb1f0d65cc8c747a395be74.png) |  Apple Vision Pro |  com.apple.visionproapp 
+| ![App Icon](https://help.apple.com/assets/68DAC6E52F03DC81360CDE2C/68DAC6E92F03DC81360CDE32/zh_CN/964ccbcbded3058f3a838b85b7d24c2f.png) |  Developer |  developer.apple.wwdc-Release 
+| ![App Icon](https://help.apple.com/assets/68DAC6E52F03DC81360CDE2C/68DAC6E92F03DC81360CDE32/zh_CN/9868795ff25ef207a95d8374ae894aba.png) |  FaceTime 通话 |  com.apple.facetime 
+| ![App Icon](https://help.apple.com/assets/68DAC6E52F03DC81360CDE2C/68DAC6E92F03DC81360CDE32/zh_CN/360b9f7ed11b719dab6849ccf2f36c4d.png) |  iCloud 云盘 |  com.apple.iCloudDriveApp 
+| ![App Icon](https://help.apple.com/assets/68DAC6E52F03DC81360CDE2C/68DAC6E92F03DC81360CDE32/zh_CN/d648727d6a75c04a00f37fcdf6cf8e89.png) |  iMovie 剪辑 |  com.apple.iMovie 
+| ![App Icon](https://help.apple.com/assets/68DAC6E52F03DC81360CDE2C/68DAC6E92F03DC81360CDE32/zh_CN/3492fe28adf19dd77236362c7b50cf3b.png) |  iTunes Store |  com.apple.MobileStore 
+| ![App Icon](https://help.apple.com/assets/68DAC6E52F03DC81360CDE2C/68DAC6E92F03DC81360CDE32/zh_CN/4404f94bb00a8e0e08be4d39f1bdc57a.png) |  Keynote 讲演 |  com.apple.Keynote 
+| ![App Icon](https://help.apple.com/assets/68DAC6E52F03DC81360CDE2C/68DAC6E92F03DC81360CDE32/zh_CN/3156cd57bc854ec55158024a44569849.png) |  Numbers 表格 |  com.apple.Numbers 
+| ![App Icon](https://help.apple.com/assets/68DAC6E52F03DC81360CDE2C/68DAC6E92F03DC81360CDE32/zh_CN/86225a29f6b8b34f25ee43e8adf8e3d2.png) |  Pages 文稿 |  com.apple.Pages 
+| ![App Icon](https://help.apple.com/assets/68DAC6E52F03DC81360CDE2C/68DAC6E92F03DC81360CDE32/zh_CN/4c542052a9746167421125c71fc58328.png) |  Photo Booth |  com.apple.Photo-Booth 
+| ![App Icon](https://help.apple.com/assets/68DAC6E52F03DC81360CDE2C/68DAC6E92F03DC81360CDE32/zh_CN/4236b540374dd23e0ba9e00d84f328ac.png) |  Safari 浏览器 |  com.apple.mobilesafari 
+| ![App Icon](https://help.apple.com/assets/68DAC6E52F03DC81360CDE2C/68DAC6E92F03DC81360CDE32/zh_CN/7c2614bc7187301108596bcfa1bf1b89.png) |  Swift Playground |  com.apple.Playgrounds 
+| ![App Icon](https://help.apple.com/assets/68DAC6E52F03DC81360CDE2C/68DAC6E92F03DC81360CDE32/zh_CN/a03bb76334d7e969a2bbcbeefc515790.png) |  Watch |  com.apple.Bridge 
 
 
 # Installation
