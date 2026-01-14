@@ -13,7 +13,7 @@ Apple's Bundle IDs for native iPhone and iPad apps. The table below lists the na
 
 This list is automatically rebuilt once a month, but only if changes are detected on Apple’s Bundle IDs website.
 
-**58** apps - v1.0.2 built on Dec 08, 2025 at 21:57 | See also :point_right: [App Store Web Search](https://github.com/petarov/appstore-web-search)
+**58** apps - v1.0.2 built on Jan 14, 2026 at 04:20 | See also :point_right: [App Store Web Search](https://github.com/petarov/appstore-web-search)
 
 
 
