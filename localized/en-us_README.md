@@ -13,70 +13,87 @@ Apple's Bundle IDs for native iPhone and iPad apps. The table below lists the na
 
 This list is automatically rebuilt once a month, but only if changes are detected on Apple’s Bundle IDs website.
 
-**58** apps - v1.0.2 built on Jan 14, 2026 at 04:20 | See also :point_right: [App Store Web Search](https://github.com/petarov/appstore-web-search)
+**75** apps - v1.0.3 built on Feb 14, 2026 at 04:31 | See also :point_right: [App Store Web Search](https://github.com/petarov/appstore-web-search)
 
 
 
 | Icon | App Name | Bundle ID |
 | --- | --- | --- |
-| ![App Icon](https://help.apple.com/assets/690D16458DE07E4DD30E20CD/690D1649D1137572E20F2CE6/en_US/071e3d808543888575c6809333e268ee.png) |  App Store |  com.apple.AppStore 
-| ![App Icon](https://help.apple.com/assets/690D16458DE07E4DD30E20CD/690D1649D1137572E20F2CE6/en_US/3aa245d67f58556018efaf0a0e703363.png) |  Apple Store |  com.apple.store.Jolly 
-| ![App Icon](https://help.apple.com/assets/690D16458DE07E4DD30E20CD/690D1649D1137572E20F2CE6/en_US/68132eb07bb1f0d65cc8c747a395be74.png) |  Apple Vision Pro |  com.apple.visionproapp 
-| ![App Icon](https://help.apple.com/assets/690D16458DE07E4DD30E20CD/690D1649D1137572E20F2CE6/en_US/ca5a1e4072313662b6c482f355832655.png) |  Barcode Scanner |  com.apple.BarcodeScanner 
-| ![App Icon](https://help.apple.com/assets/690D16458DE07E4DD30E20CD/690D1649D1137572E20F2CE6/en_US/4ce7080ba99d1cf2fb7e1ceb4faba546.png) |  Books |  com.apple.iBooks 
-| ![App Icon](https://help.apple.com/assets/690D16458DE07E4DD30E20CD/690D1649D1137572E20F2CE6/en_US/ab8dd0573297379c23f2d9fc443be5b4.png) |  Calculator |  com.apple.calculator 
-| ![App Icon](https://help.apple.com/assets/690D16458DE07E4DD30E20CD/690D1649D1137572E20F2CE6/en_US/4aa265c5603173e8695be48df19d1cd1.png) |  Calendar |  com.apple.mobilecal 
-| ![App Icon](https://help.apple.com/assets/690D16458DE07E4DD30E20CD/690D1649D1137572E20F2CE6/en_US/d83b0c771bd8e11eff8fb422eb26f899.png) |  Camera |  com.apple.camera 
-| ![App Icon](https://help.apple.com/assets/690D16458DE07E4DD30E20CD/690D1649D1137572E20F2CE6/en_US/dd89c64a50298e69d1e7cf960d52726f.png) |  Clips |  com.apple.clips 
-| ![App Icon](https://help.apple.com/assets/690D16458DE07E4DD30E20CD/690D1649D1137572E20F2CE6/en_US/cf7887851fe5a3de6c26e36bcfa1288a.png) |  Clock |  com.apple.mobiletimer 
-| ![App Icon](https://help.apple.com/assets/690D16458DE07E4DD30E20CD/690D1649D1137572E20F2CE6/en_US/e1ae2449ece5ff4a768f606d8b852b16.png) |  Compass |  com.apple.compass 
-| ![App Icon](https://help.apple.com/assets/690D16458DE07E4DD30E20CD/690D1649D1137572E20F2CE6/en_US/ac29af9afd2d17634110bf8d2fa68727.png) |  Contacts |  com.apple.MobileAddressBook 
-| ![App Icon](https://help.apple.com/assets/690D16458DE07E4DD30E20CD/690D1649D1137572E20F2CE6/en_US/964ccbcbded3058f3a838b85b7d24c2f.png) |  Developer |  developer.apple.wwdc-Release 
-| ![App Icon](https://help.apple.com/assets/690D16458DE07E4DD30E20CD/690D1649D1137572E20F2CE6/en_US/9868795ff25ef207a95d8374ae894aba.png) |  FaceTime |  com.apple.facetime 
-| ![App Icon](https://help.apple.com/assets/690D16458DE07E4DD30E20CD/690D1649D1137572E20F2CE6/en_US/6f00e551511672f29c1dfb5cd6a4a601.png) |  Files |  com.apple.DocumentsApp 
-| ![App Icon](https://help.apple.com/assets/690D16458DE07E4DD30E20CD/690D1649D1137572E20F2CE6/en_US/5950824507e491d57be65034bf29a0ab.png) |  Find My |  com.apple.findmy 
-| ![App Icon](https://help.apple.com/assets/690D16458DE07E4DD30E20CD/690D1649D1137572E20F2CE6/en_US/f594631046db54f6326160c45fa6c9ea.png) |  Fitness |  com.apple.Fitness 
-| ![App Icon](https://help.apple.com/assets/690D16458DE07E4DD30E20CD/690D1649D1137572E20F2CE6/en_US/5fb4c4a70f03170b245385137aac8aa3.png) |  Freeform |  com.apple.freeform 
-| ![App Icon](https://help.apple.com/assets/690D16458DE07E4DD30E20CD/690D1649D1137572E20F2CE6/en_US/ac882cf17b94e38acaa48601ea811177.png) |  Games |  com.apple.games 
-| ![App Icon](https://help.apple.com/assets/690D16458DE07E4DD30E20CD/690D1649D1137572E20F2CE6/en_US/9ded1a37474fc59b6451a6373a142ad7.png) |  GarageBand |  com.apple.mobilegarageband 
-| ![App Icon](https://help.apple.com/assets/690D16458DE07E4DD30E20CD/690D1649D1137572E20F2CE6/en_US/65718d0717bdb4b6e4c9c3f3e62df0a8.png) |  Health |  com.apple.Health 
-| ![App Icon](https://help.apple.com/assets/690D16458DE07E4DD30E20CD/690D1649D1137572E20F2CE6/en_US/1205f679b38b123bc51ae6f39f928425.png) |  Home |  com.apple.Home 
-| ![App Icon](https://help.apple.com/assets/690D16458DE07E4DD30E20CD/690D1649D1137572E20F2CE6/en_US/360b9f7ed11b719dab6849ccf2f36c4d.png) |  iCloud Drive |  com.apple.iCloudDriveApp 
-| ![App Icon](https://help.apple.com/assets/690D16458DE07E4DD30E20CD/690D1649D1137572E20F2CE6/en_US/d648727d6a75c04a00f37fcdf6cf8e89.png) |  iMovie |  com.apple.iMovie 
-| ![App Icon](https://help.apple.com/assets/690D16458DE07E4DD30E20CD/690D1649D1137572E20F2CE6/en_US/1914fc663f67825e1d88aa229056328b.png) |  Invites |  com.apple.rsvp 
-| ![App Icon](https://help.apple.com/assets/690D16458DE07E4DD30E20CD/690D1649D1137572E20F2CE6/en_US/3492fe28adf19dd77236362c7b50cf3b.png) |  iTunes Store |  com.apple.MobileStore 
-| ![App Icon](https://help.apple.com/assets/690D16458DE07E4DD30E20CD/690D1649D1137572E20F2CE6/en_US/73b9ae126aee1b78cf3a0326c16f2eb6.png) |  Journal |  com.apple.journal 
-| ![App Icon](https://help.apple.com/assets/690D16458DE07E4DD30E20CD/690D1649D1137572E20F2CE6/en_US/4404f94bb00a8e0e08be4d39f1bdc57a.png) |  Keynote |  com.apple.Keynote 
-| ![App Icon](https://help.apple.com/assets/690D16458DE07E4DD30E20CD/690D1649D1137572E20F2CE6/en_US/6c2e0c6768f9348e652b29c821e9c7a7.png) |  Magnifier |  com.apple.Magnifier 
-| ![App Icon](https://help.apple.com/assets/690D16458DE07E4DD30E20CD/690D1649D1137572E20F2CE6/en_US/0681f83644561a952a68671dabeaaf0a.png) |  Mail |  com.apple.mobilemail 
-| ![App Icon](https://help.apple.com/assets/690D16458DE07E4DD30E20CD/690D1649D1137572E20F2CE6/en_US/4b6688e61702fb24a58390662791ed71.png) |  Maps |  com.apple.Maps 
-| ![App Icon](https://help.apple.com/assets/690D16458DE07E4DD30E20CD/690D1649D1137572E20F2CE6/en_US/57cc1c3a10ef36f79edc6f0c2e340f96.png) |  Measure |  com.apple.measure 
-| ![App Icon](https://help.apple.com/assets/690D16458DE07E4DD30E20CD/690D1649D1137572E20F2CE6/en_US/a4faeae46cd6efcfd95ec07fd493dc61.png) |  Messages |  com.apple.MobileSMS 
-| ![App Icon](https://help.apple.com/assets/690D16458DE07E4DD30E20CD/690D1649D1137572E20F2CE6/en_US/a7fef635e58c9598401c8752e148c818.png) |  Music |  com.apple.Music 
-| ![App Icon](https://help.apple.com/assets/690D16458DE07E4DD30E20CD/690D1649D1137572E20F2CE6/en_US/b4655ffc33a363351cf022675f727b42.png) |  News |  com.apple.news 
-| ![App Icon](https://help.apple.com/assets/690D16458DE07E4DD30E20CD/690D1649D1137572E20F2CE6/en_US/0023b78fd2538767108dda657985d7d7.png) |  Notes |  com.apple.mobilenotes 
-| ![App Icon](https://help.apple.com/assets/690D16458DE07E4DD30E20CD/690D1649D1137572E20F2CE6/en_US/3156cd57bc854ec55158024a44569849.png) |  Numbers |  com.apple.Numbers 
-| ![App Icon](https://help.apple.com/assets/690D16458DE07E4DD30E20CD/690D1649D1137572E20F2CE6/en_US/86225a29f6b8b34f25ee43e8adf8e3d2.png) |  Pages |  com.apple.Pages 
-| ![App Icon](https://help.apple.com/assets/690D16458DE07E4DD30E20CD/690D1649D1137572E20F2CE6/en_US/55ca219f0b08e951bc9ce37e5294a5bf.png) |  Passwords |  com.apple.Passwords 
-| ![App Icon](https://help.apple.com/assets/690D16458DE07E4DD30E20CD/690D1649D1137572E20F2CE6/en_US/4d33e010b45a62316127fae0e1dc7d58.png) |  Phone |  com.apple.mobilephone 
-| ![App Icon](https://help.apple.com/assets/690D16458DE07E4DD30E20CD/690D1649D1137572E20F2CE6/en_US/4c542052a9746167421125c71fc58328.png) |  Photo Booth |  com.apple.Photo-Booth 
-| ![App Icon](https://help.apple.com/assets/690D16458DE07E4DD30E20CD/690D1649D1137572E20F2CE6/en_US/634eb7f2c34770bf0e66021b07c740ae.png) |  Photos |  com.apple.mobileslideshow 
-| ![App Icon](https://help.apple.com/assets/690D16458DE07E4DD30E20CD/690D1649D1137572E20F2CE6/en_US/5ed14a83f485d25c5c77340192dcd8f0.png) |  Playground |  com.apple.GenerativePlaygroundApp 
-| ![App Icon](https://help.apple.com/assets/690D16458DE07E4DD30E20CD/690D1649D1137572E20F2CE6/en_US/4914435d08e26901613dd885d33e874a.png) |  Podcasts |  com.apple.podcasts 
-| ![App Icon](https://help.apple.com/assets/690D16458DE07E4DD30E20CD/690D1649D1137572E20F2CE6/en_US/6da7b79db099bc30de617e577dd5dffb.png) |  Preview |  com.apple.Preview 
-| ![App Icon](https://help.apple.com/assets/690D16458DE07E4DD30E20CD/690D1649D1137572E20F2CE6/en_US/9fbbd0b8090dadb79bc3e8303ecc0e47.png) |  Reminders |  com.apple.reminders 
-| ![App Icon](https://help.apple.com/assets/690D16458DE07E4DD30E20CD/690D1649D1137572E20F2CE6/en_US/4236b540374dd23e0ba9e00d84f328ac.png) |  Safari |  com.apple.mobilesafari 
-| ![App Icon](https://help.apple.com/assets/690D16458DE07E4DD30E20CD/690D1649D1137572E20F2CE6/en_US/10da108a1ca2e743e53ff6b830473174.png) |  Settings |  com.apple.Preferences 
-| ![App Icon](https://help.apple.com/assets/690D16458DE07E4DD30E20CD/690D1649D1137572E20F2CE6/en_US/e30464a5cf17b16480a09f289231c001.png) |  Shortcuts |  com.apple.shortcuts 
-| ![App Icon](https://help.apple.com/assets/690D16458DE07E4DD30E20CD/690D1649D1137572E20F2CE6/en_US/7a26f608955529ffd4e770512cc7a716.png) |  Stocks |  com.apple.stocks 
-| ![App Icon](https://help.apple.com/assets/690D16458DE07E4DD30E20CD/690D1649D1137572E20F2CE6/en_US/7c2614bc7187301108596bcfa1bf1b89.png) |  Swift Playground |  com.apple.Playgrounds 
-| ![App Icon](https://help.apple.com/assets/690D16458DE07E4DD30E20CD/690D1649D1137572E20F2CE6/en_US/4adb39ac3f65db381333d01c51f5319b.png) |  Tips |  com.apple.tips 
-| ![App Icon](https://help.apple.com/assets/690D16458DE07E4DD30E20CD/690D1649D1137572E20F2CE6/en_US/74aa668910bcfb88d7e8aa3f80a1f6f3.png) |  Translate |  com.apple.Translate 
-| ![App Icon](https://help.apple.com/assets/690D16458DE07E4DD30E20CD/690D1649D1137572E20F2CE6/en_US/25f38412b910d9c8e9aa0b501e4ba5ab.png) |  TV |  com.apple.tv 
-| ![App Icon](https://help.apple.com/assets/690D16458DE07E4DD30E20CD/690D1649D1137572E20F2CE6/en_US/d2cdf4b7cd60262c6ecfab65d55d6b44.png) |  Voice Memos |  com.apple.VoiceMemos 
-| ![App Icon](https://help.apple.com/assets/690D16458DE07E4DD30E20CD/690D1649D1137572E20F2CE6/en_US/59444fe32082698a130fb0e842f45f49.png) |  Wallet |  com.apple.Passbook 
-| ![App Icon](https://help.apple.com/assets/690D16458DE07E4DD30E20CD/690D1649D1137572E20F2CE6/en_US/a03bb76334d7e969a2bbcbeefc515790.png) |  Watch |  com.apple.Bridge 
-| ![App Icon](https://help.apple.com/assets/690D16458DE07E4DD30E20CD/690D1649D1137572E20F2CE6/en_US/c48a1bb92c915a0bb187ab3d87144263.png) |  Weather |  com.apple.weather 
+| ![App Icon](https://help.apple.com/assets/6973AB902F11514F9503EE6D/6973AB94D4349033710FD499/en_US/e7e4d14c5e3c5f84b1b81ce0fe9c842b.png) |  App Store |  com.apple.AppStore 
+| ![App Icon](https://help.apple.com/assets/6973AB902F11514F9503EE6D/6973AB94D4349033710FD499/en_US/82915ac68e17a5bbd3e30e25f902b9c5.png) |  ✨ App Store Connect |  com.apple.AppStoreConnect  🆕
+| ![App Icon](https://help.apple.com/assets/6973AB902F11514F9503EE6D/6973AB94D4349033710FD499/en_US/3f4ecc9a86620e55af25dfc608d3502a.png) |  ✨ Apple Configurator |  com.apple.ios.configurator  🆕
+| ![App Icon](https://help.apple.com/assets/6973AB902F11514F9503EE6D/6973AB94D4349033710FD499/en_US/571b6315c5ba1426d32131bf479a3475.png) |  Apple Store |  com.apple.store.Jolly 
+| ![App Icon](https://help.apple.com/assets/6973AB902F11514F9503EE6D/6973AB94D4349033710FD499/en_US/68132eb07bb1f0d65cc8c747a395be74.png) |  Apple Vision Pro |  com.apple.visionproapp 
+| ![App Icon](https://help.apple.com/assets/6973AB902F11514F9503EE6D/6973AB94D4349033710FD499/en_US/ca5a1e4072313662b6c482f355832655.png) |  Barcode Scanner |  com.apple.BarcodeScanner 
+| ![App Icon](https://help.apple.com/assets/6973AB902F11514F9503EE6D/6973AB94D4349033710FD499/en_US/76ca0f94c03159d093ac1a4e86b8db35.png) |  Books |  com.apple.iBooks 
+| ![App Icon](https://help.apple.com/assets/6973AB902F11514F9503EE6D/6973AB94D4349033710FD499/en_US/da394266bf87f310bfb884ddf9f2f229.png) |  ✨ Business Essentials |  com.apple.business-essentials  🆕
+| ![App Icon](https://help.apple.com/assets/6973AB902F11514F9503EE6D/6973AB94D4349033710FD499/en_US/654511ec914bed4d818432baae7a94d6.png) |  Calculator |  com.apple.calculator 
+| ![App Icon](https://help.apple.com/assets/6973AB902F11514F9503EE6D/6973AB94D4349033710FD499/en_US/15e525710cff868fd48746c1d65352bc.png) |  Calendar |  com.apple.mobilecal 
+| ![App Icon](https://help.apple.com/assets/6973AB902F11514F9503EE6D/6973AB94D4349033710FD499/en_US/54d216e183d47d206927140fcfdd671a.png) |  Camera |  com.apple.camera 
+| ![App Icon](https://help.apple.com/assets/6973AB902F11514F9503EE6D/6973AB94D4349033710FD499/en_US/182ecc77ce0f86e5ea8abe2c37850f25.png) |  ✨ Classical |  com.apple.music.classical  🆕
+| ![App Icon](https://help.apple.com/assets/6973AB902F11514F9503EE6D/6973AB94D4349033710FD499/en_US/6c773fd25671dbc073a435cb0125b198.png) |  ✨ Classroom |  com.apple.classroom  🆕
+| ![App Icon](https://help.apple.com/assets/6973AB902F11514F9503EE6D/6973AB94D4349033710FD499/en_US/dd89c64a50298e69d1e7cf960d52726f.png) |  Clips |  com.apple.clips 
+| ![App Icon](https://help.apple.com/assets/6973AB902F11514F9503EE6D/6973AB94D4349033710FD499/en_US/242184a830dd0be574d75b0da4be6087.png) |  Clock |  com.apple.mobiletimer 
+| ![App Icon](https://help.apple.com/assets/6973AB902F11514F9503EE6D/6973AB94D4349033710FD499/en_US/2d66c4f0f79f54cb59a81d7312381597.png) |  Compass |  com.apple.compass 
+| ![App Icon](https://help.apple.com/assets/6973AB902F11514F9503EE6D/6973AB94D4349033710FD499/en_US/5675a3b649951d1e09c13b34ed1bab64.png) |  Contacts |  com.apple.MobileAddressBook 
+| ![App Icon](https://help.apple.com/assets/6973AB902F11514F9503EE6D/6973AB94D4349033710FD499/en_US/512dab64a784a6e1d9e0e79e59c273b0.png) |  Developer |  developer.apple.wwdc-Release 
+| ![App Icon](https://help.apple.com/assets/6973AB902F11514F9503EE6D/6973AB94D4349033710FD499/en_US/96c21a23c69a59ad3f6e32071e2cec01.png) |  FaceTime |  com.apple.facetime 
+| ![App Icon](https://help.apple.com/assets/6973AB902F11514F9503EE6D/6973AB94D4349033710FD499/en_US/d3e7132489a8042a0fc9edc0870f84a9.png) |  Files |  com.apple.DocumentsApp 
+| ![App Icon](https://help.apple.com/assets/6973AB902F11514F9503EE6D/6973AB94D4349033710FD499/en_US/f231d08cf34d1e84fd4bc60c81c52387.png) |  ✨ Final Cut Camera |  com.apple.FinalCutApp.companion  🆕
+| ![App Icon](https://help.apple.com/assets/6973AB902F11514F9503EE6D/6973AB94D4349033710FD499/en_US/7a597f468bb6364969b03051a2e2550d.png) |  ✨ Final Cut Pro |  com.apple.FinalCutApp  🆕
+| ![App Icon](https://help.apple.com/assets/6973AB902F11514F9503EE6D/6973AB94D4349033710FD499/en_US/7f4bdeec8960484c204102b981a9ffd6.png) |  Find My |  com.apple.findmy 
+| ![App Icon](https://help.apple.com/assets/6973AB902F11514F9503EE6D/6973AB94D4349033710FD499/en_US/f594631046db54f6326160c45fa6c9ea.png) |  Fitness |  com.apple.Fitness 
+| ![App Icon](https://help.apple.com/assets/6973AB902F11514F9503EE6D/6973AB94D4349033710FD499/en_US/5fb4c4a70f03170b245385137aac8aa3.png) |  Freeform |  com.apple.freeform 
+| ![App Icon](https://help.apple.com/assets/6973AB902F11514F9503EE6D/6973AB94D4349033710FD499/en_US/3ad8a4667e3d35b04521ed66a3dd6159.png) |  Games |  com.apple.games 
+| ![App Icon](https://help.apple.com/assets/6973AB902F11514F9503EE6D/6973AB94D4349033710FD499/en_US/7f24d9bf5ca11f42f4747904b199fd4e.png) |  GarageBand |  com.apple.mobilegarageband 
+| ![App Icon](https://help.apple.com/assets/6973AB902F11514F9503EE6D/6973AB94D4349033710FD499/en_US/a0d03b1354b7939bae2122bfd2fb753b.png) |  Health |  com.apple.Health 
+| ![App Icon](https://help.apple.com/assets/6973AB902F11514F9503EE6D/6973AB94D4349033710FD499/en_US/a67cf44448441d5d5e9afa50aa99c825.png) |  Home |  com.apple.Home 
+| ![App Icon](https://help.apple.com/assets/6973AB902F11514F9503EE6D/6973AB94D4349033710FD499/en_US/493635aff09113f3a43422ba2cbe6e5e.png) |  iCloud Drive |  com.apple.iCloudDriveApp 
+| ![App Icon](https://help.apple.com/assets/6973AB902F11514F9503EE6D/6973AB94D4349033710FD499/en_US/eaabdb0fc7cfab1abd4fa1b1f6f2c479.png) |  iMovie |  com.apple.iMovie 
+| ![App Icon](https://help.apple.com/assets/6973AB902F11514F9503EE6D/6973AB94D4349033710FD499/en_US/c49048e28d42770362307a785eb93437.png) |  Invites |  com.apple.rsvp 
+| ![App Icon](https://help.apple.com/assets/6973AB902F11514F9503EE6D/6973AB94D4349033710FD499/en_US/c4134ed6fe0242606ea5eff88306ffe0.png) |  iTunes Store |  com.apple.MobileStore 
+| ![App Icon](https://help.apple.com/assets/6973AB902F11514F9503EE6D/6973AB94D4349033710FD499/en_US/8d1dfa3919e0ae965d33ec7dbcfcc2ea.png) |  Journal |  com.apple.journal 
+| ![App Icon](https://help.apple.com/assets/6973AB902F11514F9503EE6D/6973AB94D4349033710FD499/en_US/a9ea5f214197e9d397d64ef45247f611.png) |  Keynote |  com.apple.Keynote 
+| ![App Icon](https://help.apple.com/assets/6973AB902F11514F9503EE6D/6973AB94D4349033710FD499/en_US/ad80bd9541084145164be5e1df18318a.png) |  ✨ Logic Pro |  com.apple.mobilelogic  🆕
+| ![App Icon](https://help.apple.com/assets/6973AB902F11514F9503EE6D/6973AB94D4349033710FD499/en_US/53078a661bdbcceb2b09bb45fc44d00b.png) |  ✨ Logic Remote |  com.apple.musicapps.remote  🆕
+| ![App Icon](https://help.apple.com/assets/6973AB902F11514F9503EE6D/6973AB94D4349033710FD499/en_US/6c2e0c6768f9348e652b29c821e9c7a7.png) |  Magnifier |  com.apple.Magnifier 
+| ![App Icon](https://help.apple.com/assets/6973AB902F11514F9503EE6D/6973AB94D4349033710FD499/en_US/82619939e0b66ff05e05c1591fd8ba38.png) |  Mail |  com.apple.mobilemail 
+| ![App Icon](https://help.apple.com/assets/6973AB902F11514F9503EE6D/6973AB94D4349033710FD499/en_US/9ff77fa3405aaa33a72742f51cd3ad6d.png) |  Maps |  com.apple.Maps 
+| ![App Icon](https://help.apple.com/assets/6973AB902F11514F9503EE6D/6973AB94D4349033710FD499/en_US/182880116e3ade1360b52c2153509f1a.png) |  Measure |  com.apple.measure 
+| ![App Icon](https://help.apple.com/assets/6973AB902F11514F9503EE6D/6973AB94D4349033710FD499/en_US/3bdb22e36f7cd61ed07f39a7dae0f52e.png) |  Messages |  com.apple.MobileSMS 
+| ![App Icon](https://help.apple.com/assets/6973AB902F11514F9503EE6D/6973AB94D4349033710FD499/en_US/9a7f048ba3d5867cc74276573d4ceae8.png) |  Music |  com.apple.Music 
+| ![App Icon](https://help.apple.com/assets/6973AB902F11514F9503EE6D/6973AB94D4349033710FD499/en_US/b42be7a9f309a2ba58302541c2c252ec.png) |  News |  com.apple.news 
+| ![App Icon](https://help.apple.com/assets/6973AB902F11514F9503EE6D/6973AB94D4349033710FD499/en_US/d3e6a9ead048730f347c9414c8202716.png) |  Notes |  com.apple.mobilenotes 
+| ![App Icon](https://help.apple.com/assets/6973AB902F11514F9503EE6D/6973AB94D4349033710FD499/en_US/b51eb8dba128c3ac53058182d5734acb.png) |  Numbers |  com.apple.Numbers 
+| ![App Icon](https://help.apple.com/assets/6973AB902F11514F9503EE6D/6973AB94D4349033710FD499/en_US/67e3c712805adef455006cdf9a2d452c.png) |  Pages |  com.apple.Pages 
+| ![App Icon](https://help.apple.com/assets/6973AB902F11514F9503EE6D/6973AB94D4349033710FD499/en_US/db4d2f31dc6b3e57cfcf5640ca8ad5af.png) |  Passwords |  com.apple.Passwords 
+| ![App Icon](https://help.apple.com/assets/6973AB902F11514F9503EE6D/6973AB94D4349033710FD499/en_US/98516f77d6a3afe822ca4c88fea6ff12.png) |  Phone |  com.apple.mobilephone 
+| ![App Icon](https://help.apple.com/assets/6973AB902F11514F9503EE6D/6973AB94D4349033710FD499/en_US/4c542052a9746167421125c71fc58328.png) |  Photo Booth |  com.apple.Photo-Booth 
+| ![App Icon](https://help.apple.com/assets/6973AB902F11514F9503EE6D/6973AB94D4349033710FD499/en_US/f147fa4cac54dfae898875db5dac9759.png) |  ✨ Photomator |  com.pixelmatorteam.pixelmator.touch.x.photo  🆕
+| ![App Icon](https://help.apple.com/assets/6973AB902F11514F9503EE6D/6973AB94D4349033710FD499/en_US/02e69940d1b89ce5d47d636ac3fa5c63.png) |  Photos |  com.apple.mobileslideshow 
+| ![App Icon](https://help.apple.com/assets/6973AB902F11514F9503EE6D/6973AB94D4349033710FD499/en_US/55689b9990cb60022dcef2130fac7998.png) |  ✨ Pixelmator Classic iOS |  com.pixelmatorteam.pixelmator.touch  🆕
+| ![App Icon](https://help.apple.com/assets/6973AB902F11514F9503EE6D/6973AB94D4349033710FD499/en_US/7651272b83f691cc6cc66e58c7673613.png) |  Playground |  com.apple.GenerativePlaygroundApp 
+| ![App Icon](https://help.apple.com/assets/6973AB902F11514F9503EE6D/6973AB94D4349033710FD499/en_US/4d841c55bca6e1998177e42f1fe9eb99.png) |  Podcasts |  com.apple.podcasts 
+| ![App Icon](https://help.apple.com/assets/6973AB902F11514F9503EE6D/6973AB94D4349033710FD499/en_US/d7b6757b6570dca3daac077fd656c997.png) |  Preview |  com.apple.Preview 
+| ![App Icon](https://help.apple.com/assets/6973AB902F11514F9503EE6D/6973AB94D4349033710FD499/en_US/c9c891be1f09c4e8272f2d538d8fef5c.png) |  ✨ Reality Composer |  com.apple.RealityComposer  🆕
+| ![App Icon](https://help.apple.com/assets/6973AB902F11514F9503EE6D/6973AB94D4349033710FD499/en_US/fc59877efe5c3798213fc4260e5af14b.png) |  Reminders |  com.apple.reminders 
+| ![App Icon](https://help.apple.com/assets/6973AB902F11514F9503EE6D/6973AB94D4349033710FD499/en_US/c35cb9b2fba0a854435435077b96110d.png) |  ✨ Research |  com.apple.Research  🆕
+| ![App Icon](https://help.apple.com/assets/6973AB902F11514F9503EE6D/6973AB94D4349033710FD499/en_US/f2d979ccdd8eaff061c11aa6dfad41e4.png) |  Safari |  com.apple.mobilesafari 
+| ![App Icon](https://help.apple.com/assets/6973AB902F11514F9503EE6D/6973AB94D4349033710FD499/en_US/999cff56b3139d73763fe4f73dafdd8d.png) |  ✨ Schoolwork |  com.apple.schoolwork.ClassKitApp  🆕
+| ![App Icon](https://help.apple.com/assets/6973AB902F11514F9503EE6D/6973AB94D4349033710FD499/en_US/07f8f974cfe0076bd0f2456fe24c0f48.png) |  Settings |  com.apple.Preferences 
+| ![App Icon](https://help.apple.com/assets/6973AB902F11514F9503EE6D/6973AB94D4349033710FD499/en_US/b3b23071652cae2d9e8473d1dd87751a.png) |  ✨ Shazam |  com.shazam.Shazam  🆕
+| ![App Icon](https://help.apple.com/assets/6973AB902F11514F9503EE6D/6973AB94D4349033710FD499/en_US/f6727ec454a937f5222f9ffdd1e9346a.png) |  Shortcuts |  com.apple.shortcuts 
+| ![App Icon](https://help.apple.com/assets/6973AB902F11514F9503EE6D/6973AB94D4349033710FD499/en_US/190f80b2fc9f9f1b4140f1f54b379e22.png) |  ✨ Sports |  com.apple.sports  🆕
+| ![App Icon](https://help.apple.com/assets/6973AB902F11514F9503EE6D/6973AB94D4349033710FD499/en_US/874f2f3265274895744a36e5f7473f00.png) |  Stocks |  com.apple.stocks 
+| ![App Icon](https://help.apple.com/assets/6973AB902F11514F9503EE6D/6973AB94D4349033710FD499/en_US/7c2614bc7187301108596bcfa1bf1b89.png) |  Swift Playground |  com.apple.Playgrounds 
+| ![App Icon](https://help.apple.com/assets/6973AB902F11514F9503EE6D/6973AB94D4349033710FD499/en_US/6a8e0cac31d116551b28bf04b94668d2.png) |  ✨ TestFlight |  com.apple.TestFlight  🆕
+| ![App Icon](https://help.apple.com/assets/6973AB902F11514F9503EE6D/6973AB94D4349033710FD499/en_US/25fa4c6dd33b3d3652c7212fe0a64ccc.png) |  Tips |  com.apple.tips 
+| ![App Icon](https://help.apple.com/assets/6973AB902F11514F9503EE6D/6973AB94D4349033710FD499/en_US/990413161167d95734f2524627ce5980.png) |  Translate |  com.apple.Translate 
+| ![App Icon](https://help.apple.com/assets/6973AB902F11514F9503EE6D/6973AB94D4349033710FD499/en_US/846e2d2ece66691b079f75a60f37984b.png) |  TV |  com.apple.tv 
+| ![App Icon](https://help.apple.com/assets/6973AB902F11514F9503EE6D/6973AB94D4349033710FD499/en_US/065d9614bd4d6d790e0f917e4a9166a4.png) |  Voice Memos |  com.apple.VoiceMemos 
+| ![App Icon](https://help.apple.com/assets/6973AB902F11514F9503EE6D/6973AB94D4349033710FD499/en_US/7a7789fe67fd39afa943f4903902cb62.png) |  Wallet |  com.apple.Passbook 
+| ![App Icon](https://help.apple.com/assets/6973AB902F11514F9503EE6D/6973AB94D4349033710FD499/en_US/23b19bde9139567f97d1b13c2526b2aa.png) |  Watch |  com.apple.Bridge 
+| ![App Icon](https://help.apple.com/assets/6973AB902F11514F9503EE6D/6973AB94D4349033710FD499/en_US/3cd389d3159d1377beedc4189150d789.png) |  Weather |  com.apple.weather 
 
 
 # Installation
